@@ -1,16 +1,33 @@
-## Hi there 👋
+# Kaushal S
 
-<!--
-**kaushalrog/kaushalrog** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+AI & Data Science Undergraduate | Machine Learning • Deep Learning • Robotics
 
-Here are some ideas to get you started:
+I work on applied AI systems that combine mathematical modeling,
+learning-based methods, and real-world constraints.
+My interests include inverse problems, robotics locomotion,
+and intelligent decision-making systems.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## Focus Areas
+- Machine Learning & Deep Learning (PyTorch, TensorFlow)
+- Optimization & Inverse Problems
+- Robotics (Kinematics, Gait Planning)
+- Applied AI for Real-World Systems
+
+---
+
+## Featured Projects
+- **MCDIP-ADMM for Low-Dose CT Reconstruction**
+- **AntBot: Low-Cost Hexapod Robot with Tripod Gait**
+- **Fuzzy-SNN for Urban Traffic Congestion Prediction**
+
+---
+
+## Tech Stack
+Python · C++ · Java · PyTorch · TensorFlow · MATLAB · Linux · Git
+
+---
+
+📫 Email: kaushalreddy15@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/kaushal-s-19234b314/
