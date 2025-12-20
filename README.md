@@ -11,7 +11,6 @@ and intelligent decision-making systems.
 
 ## Focus Areas
 - Machine Learning & Deep Learning (PyTorch, TensorFlow)
-- Optimization & Inverse Problems
 - Robotics (Kinematics, Gait Planning)
 - Applied AI for Real-World Systems
 
