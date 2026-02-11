@@ -13,24 +13,20 @@
 
 ## 👨‍🎓 About Me
 
-> **Undergraduate Student** passionate about Artificial Intelligence, Machine Learning, and Robotics
+**Kaushal Reddy** | AI & Data Science Undergraduate Student from India 🇮🇳
 
-```python
-class Student:
-    def __init__(self):
-        self.name = "Kaushal Reddy"
-        self.role = "AI & Data Science Undergraduate"
-        self.location = "India 🇮🇳"
-        self.learning = ["Deep Learning", "Computer Vision", "Robotics"]
-        self.interests = ["Medical Imaging AI", "Smart Systems", "Optimization"]
-    
-    def current_focus(self):
-        return [
-            "🔬 Medical Image Reconstruction (ADMM + Deep Learning)",
-            "🤖 Robotics & Autonomous Systems",
-            "🚦 AI for Smart Cities"
-        ]
-```
+I'm passionate about building intelligent systems that solve real-world problems. Currently exploring the intersection of **Deep Learning**, **Computer Vision**, and **Robotics** through hands-on projects and research.
+
+### 🎯 Current Focus Areas
+
+- 🔬 **Medical Imaging AI** - CT Reconstruction using ADMM optimization and Deep Image Prior
+- 🤖 **Robotics** - Autonomous systems, kinematics, and intelligent motion planning  
+- 🚦 **Smart Cities** - AI-powered traffic management and metro scheduling systems
+- 🧠 **Deep Learning** - Neural architectures and optimization frameworks
+
+### 💡 What I'm Learning
+
+Building practical AI applications while strengthening foundations in machine learning theory, optimization algorithms, and system design.
 
 <br>
 
@@ -63,93 +59,61 @@ class Student:
 
 <br>
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=kaushalrog&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&include_all_commits=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaushalrog&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9"/>
-
-<br><br>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=kaushalrog&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=1F6FEB&fire=FF6B6B&currStreakLabel=C9D1D9"/>
-
-</div>
-
-<br>
-
 ## 🚀 Featured Projects
 
-<div align="center">
 <table>
 <tr>
-<td width="50%" align="center">
+<td width="50%">
 
-**Medical Imaging AI**
+### 🏥 Medical Imaging AI
+**[mcdip-admm-ct-reconstruction](https://github.com/kaushalrog/mcdip-admm-ct-reconstruction)**
 
-<a href="https://github.com/kaushalrog/mcdip-admm-ct-reconstruction">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=kaushalrog&repo=mcdip-admm-ct-reconstruction&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9"/>
-</a>
+Unsupervised CT image reconstruction using ADMM optimization framework combined with Deep Image Prior ensemble to reduce overfitting.
 
-CT Reconstruction using Deep Learning & ADMM
-
-`PyTorch` `Medical Imaging` `Deep Learning`
+**Tech Stack:** `PyTorch` `NumPy` `SciPy` `Medical Imaging`
 
 </td>
-<td width="50%" align="center">
+<td width="50%">
 
-**Smart Traffic System**
+### 🚦 Smart Traffic Management
+**[TrafficFlowAI](https://github.com/kaushalrog/TrafficFlowAI)**
 
-<a href="https://github.com/kaushalrog/TrafficFlowAI">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=kaushalrog&repo=TrafficFlowAI&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9"/>
-</a>
+AI-powered decision support platform to help city governments and traffic control centers manage traffic flow efficiently.
 
-AI-powered traffic management platform
-
-`Machine Learning` `Decision Support` `Web`
+**Tech Stack:** `Machine Learning` `Python` `Web Development`
 
 </td>
 </tr>
 
 <tr>
-<td width="50%" align="center">
+<td width="50%">
 
-**Metro Scheduling AI**
+### 🚇 Metro Scheduling AI
+**[kerala_metro_scheduling](https://github.com/kaushalrog/kerala_metro_scheduling)**
 
-<a href="https://github.com/kaushalrog/kerala_metro_scheduling">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=kaushalrog&repo=kerala_metro_scheduling&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9"/>
-</a>
+Intelligent AI assistant for metro control centers to optimize scheduling and improve operational efficiency.
 
-Intelligent scheduling optimization
-
-`AI/ML` `Optimization` `Automation`
+**Tech Stack:** `AI/ML` `Optimization` `HTML/CSS/JS`
 
 </td>
-<td width="50%" align="center">
+<td width="50%">
 
-**Materials Science ML**
+### 🔬 Materials Science ML
+**[ML Structure-Property Correlation](https://github.com/kaushalrog/-Machine-Learning-Driven-Structure-Property-Correlation-for-Mechanical-Design-of-Alloys)**
 
-<a href="https://github.com/kaushalrog/-Machine-Learning-Driven-Structure-Property-Correlation-for-Mechanical-Design-of-Alloys">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=kaushalrog&repo=-Machine-Learning-Driven-Structure-Property-Correlation-for-Mechanical-Design-of-Alloys&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9"/>
-</a>
+Machine learning models to predict mechanical properties of alloys based on structural characteristics.
 
-ML for alloy design & properties
-
-`Python` `Machine Learning` `Materials Science`
+**Tech Stack:** `Python` `Machine Learning` `Data Science`
 
 </td>
 </tr>
 </table>
 
-<br>
+<div align="center">
 
-**Portfolio**
+### 🌐 Personal Portfolio
 
-<a href="https://github.com/kaushalrog/portfolio">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=kaushalrog&repo=portfolio&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9"/>
-</a>
-
-🔗 [kaushalrog.github.io/portfolio](https://kaushalrog.github.io/portfolio/)
+**[kaushalrog.github.io/portfolio](https://kaushalrog.github.io/portfolio/)** | [Repository](https://github.com/kaushalrog/portfolio)
 
 </div>
 
@@ -163,46 +127,54 @@ ML for alloy design & properties
 <tr>
 <td align="center" width="25%">
 <br>
-<img width="60" src="https://techstack-generator.vercel.app/ai-icon.svg"/>
+<img width="60" src="https://techstack-generator.vercel.app/ai-icon.svg" alt="AI"/>
 <br><br>
 <strong>Deep Learning</strong>
 <br><br>
-Neural Networks
+<sub>Neural Networks</sub>
 <br>
-Computer Vision
+<sub>Computer Vision</sub>
+<br>
+<sub>Transfer Learning</sub>
 <br><br>
 </td>
 <td align="center" width="25%">
 <br>
-<img width="60" src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif"/>
+<img width="60" src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" alt="Medical"/>
 <br><br>
 <strong>Medical Imaging</strong>
 <br><br>
-CT Reconstruction
+<sub>CT Reconstruction</sub>
 <br>
-Inverse Problems
+<sub>Inverse Problems</sub>
+<br>
+<sub>Optimization</sub>
 <br><br>
 </td>
 <td align="center" width="25%">
 <br>
-<img width="60" src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif"/>
+<img width="60" src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" alt="Robotics"/>
 <br><br>
 <strong>Robotics</strong>
 <br><br>
-Autonomous Systems
+<sub>Autonomous Systems</sub>
 <br>
-Motion Planning
+<sub>Motion Planning</sub>
+<br>
+<sub>Control Systems</sub>
 <br><br>
 </td>
 <td align="center" width="25%">
 <br>
-<img width="60" src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif"/>
+<img width="60" src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" alt="Smart Systems"/>
 <br><br>
 <strong>Smart Systems</strong>
 <br><br>
-Optimization
+<sub>Traffic Management</sub>
 <br>
-Decision Support
+<sub>Decision Support</sub>
+<br>
+<sub>Optimization</sub>
 <br><br>
 </td>
 </tr>
@@ -231,9 +203,7 @@ Decision Support
 
 <br><br>
 
-### 💬 Let's Collaborate!
-
-Open to research collaborations, project discussions, and learning opportunities
+**💬 Open to collaborations, research discussions, and learning opportunities!**
 
 </div>
 
@@ -245,10 +215,12 @@ Open to research collaborations, project discussions, and learning opportunities
 
 ### ☕ Support My Learning Journey
 
-<p>If you find my projects helpful or interesting, consider supporting my studies!</p>
+If you find my projects helpful or interesting, consider supporting my studies!
+
+<br>
 
 <a href="https://buymeacoffee.com/kaushalrog">
-<img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black"/>
+<img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" height="50"/>
 </a>
 
 <br><br>
