@@ -16,13 +16,6 @@ and intelligent decision-making systems.
 
 ---
 
-## Featured Projects
-- **MCDIP-ADMM for Low-Dose CT Reconstruction**
-- **AntBot: Low-Cost Hexapod Robot with Tripod Gait**
-- **Fuzzy-SNN for Urban Traffic Congestion Prediction**
-
----
-
 ## Tech Stack
 Python · C++ · Java · PyTorch · TensorFlow · MATLAB · Linux · Git
 
