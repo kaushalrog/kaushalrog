@@ -4,33 +4,30 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=AI+%26+Data+Science+Student;Deep+Learning+Enthusiast;Robotics+Explorer;Still+Learning%2C+Still+Growing)](https://git.io/typing-svg)
 
-![Profile Views](https://komarev.com/ghpvc/?username=kaushalrog&label=Profile%20Views&color=0e75b6&style=flat-square)
-[![GitHub followers](https://img.shields.io/github/followers/kaushalrog?label=Followers&style=flat-square&color=blue)](https://github.com/kaushalrog)
-
 </div>
 
 <br>
 
-## 👨‍🎓 About Me
+##  About Me
 
 **Kaushal Reddy** | AI & Data Science Undergraduate Student from India 🇮🇳
 
 I'm passionate about building intelligent systems that solve real-world problems. Currently exploring the intersection of **Deep Learning**, **Computer Vision**, and **Robotics** through hands-on projects and research.
 
-### 🎯 Current Focus Areas
+###  Current Focus Areas
 
-- 🔬 **Medical Imaging AI** - CT Reconstruction using ADMM optimization and Deep Image Prior
-- 🤖 **Robotics** - Autonomous systems, kinematics, and intelligent motion planning  
-- 🚦 **Smart Cities** - AI-powered traffic management and metro scheduling systems
-- 🧠 **Deep Learning** - Neural architectures and optimization frameworks
+-  **Medical Imaging AI** - CT Reconstruction using ADMM optimization and Deep Image Prior
+-  **Robotics** - Autonomous systems, kinematics, and intelligent motion planning  
+-  **Smart Cities** - AI-powered traffic management and metro scheduling systems
+-  **Deep Learning** - Neural architectures and optimization frameworks
 
-### 💡 What I'm Learning
+###  What I'm Learning
 
 Building practical AI applications while strengthening foundations in machine learning theory, optimization algorithms, and system design.
 
 <br>
 
-## 🛠️ Technologies & Tools
+##  Technologies & Tools
 
 <div align="center">
 
@@ -59,13 +56,13 @@ Building practical AI applications while strengthening foundations in machine le
 
 <br>
 
-## 🚀 Featured Projects
+##  Featured Projects
 
 <table>
 <tr>
 <td width="50%">
 
-### 🏥 Medical Imaging AI
+###  Medical Imaging AI
 **[mcdip-admm-ct-reconstruction](https://github.com/kaushalrog/mcdip-admm-ct-reconstruction)**
 
 Unsupervised CT image reconstruction using ADMM optimization framework combined with Deep Image Prior ensemble to reduce overfitting.
@@ -75,7 +72,7 @@ Unsupervised CT image reconstruction using ADMM optimization framework combined 
 </td>
 <td width="50%">
 
-### 🚦 Smart Traffic Management
+###  Smart Traffic Management
 **[TrafficFlowAI](https://github.com/kaushalrog/TrafficFlowAI)**
 
 AI-powered decision support platform to help city governments and traffic control centers manage traffic flow efficiently.
@@ -88,7 +85,7 @@ AI-powered decision support platform to help city governments and traffic contro
 <tr>
 <td width="50%">
 
-### 🚇 Metro Scheduling AI
+###  Metro Scheduling AI
 **[kerala_metro_scheduling](https://github.com/kaushalrog/kerala_metro_scheduling)**
 
 Intelligent AI assistant for metro control centers to optimize scheduling and improve operational efficiency.
@@ -98,7 +95,7 @@ Intelligent AI assistant for metro control centers to optimize scheduling and im
 </td>
 <td width="50%">
 
-### 🔬 Materials Science ML
+###  Materials Science ML
 **[ML Structure-Property Correlation](https://github.com/kaushalrog/-Machine-Learning-Driven-Structure-Property-Correlation-for-Mechanical-Design-of-Alloys)**
 
 Machine learning models to predict mechanical properties of alloys based on structural characteristics.
@@ -111,7 +108,7 @@ Machine learning models to predict mechanical properties of alloys based on stru
 
 <div align="center">
 
-### 🌐 Personal Portfolio
+###  Personal Portfolio
 
 **[kaushalrog.github.io/portfolio](https://kaushalrog.github.io/portfolio/)** | [Repository](https://github.com/kaushalrog/portfolio)
 
@@ -119,7 +116,7 @@ Machine learning models to predict mechanical properties of alloys based on stru
 
 <br>
 
-## 🎯 Research Interests
+##  Research Interests
 
 <div align="center">
 
@@ -184,7 +181,7 @@ Machine learning models to predict mechanical properties of alloys based on stru
 
 <br>
 
-## 📫 Connect With Me
+##  Connect With Me
 
 <div align="center">
 
@@ -203,7 +200,7 @@ Machine learning models to predict mechanical properties of alloys based on stru
 
 <br><br>
 
-**💬 Open to collaborations, research discussions, and learning opportunities!**
+** Open to collaborations, research discussions, and learning opportunities!**
 
 </div>
 
@@ -213,7 +210,7 @@ Machine learning models to predict mechanical properties of alloys based on stru
 
 <div align="center">
 
-### ☕ Support My Learning Journey
+###  Support My Learning Journey
 
 If you find my projects helpful or interesting, consider supporting my studies!
 
