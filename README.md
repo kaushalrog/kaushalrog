@@ -56,56 +56,6 @@ Building practical AI applications while strengthening foundations in machine le
 
 <br>
 
-##  Featured Projects
-
-<table>
-<tr>
-<td width="50%">
-
-###  Medical Imaging AI
-**[mcdip-admm-ct-reconstruction](https://github.com/kaushalrog/mcdip-admm-ct-reconstruction)**
-
-Unsupervised CT image reconstruction using ADMM optimization framework combined with Deep Image Prior ensemble to reduce overfitting.
-
-**Tech Stack:** `PyTorch` `NumPy` `SciPy` `Medical Imaging`
-
-</td>
-<td width="50%">
-
-###  Smart Traffic Management
-**[TrafficFlowAI](https://github.com/kaushalrog/TrafficFlowAI)**
-
-AI-powered decision support platform to help city governments and traffic control centers manage traffic flow efficiently.
-
-**Tech Stack:** `Machine Learning` `Python` `Web Development`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-###  Metro Scheduling AI
-**[kerala_metro_scheduling](https://github.com/kaushalrog/kerala_metro_scheduling)**
-
-Intelligent AI assistant for metro control centers to optimize scheduling and improve operational efficiency.
-
-**Tech Stack:** `AI/ML` `Optimization` `HTML/CSS/JS`
-
-</td>
-<td width="50%">
-
-###  Materials Science ML
-**[ML Structure-Property Correlation](https://github.com/kaushalrog/-Machine-Learning-Driven-Structure-Property-Correlation-for-Mechanical-Design-of-Alloys)**
-
-Machine learning models to predict mechanical properties of alloys based on structural characteristics.
-
-**Tech Stack:** `Python` `Machine Learning` `Data Science`
-
-</td>
-</tr>
-</table>
-
 <div align="center">
 
 ###  Personal Portfolio
