@@ -1,12 +1,4 @@
-<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Kaushal%20Reddy&fontSize=50&fontAlignY=35&desc=Student%20%7C%20AI%20Researcher%20%7C%20Building%20the%20Future&descAlignY=55&descAlign=50&animation=twinkling" width="100%"/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=AI+%26+Data+Science+Student;Deep+Learning+Enthusiast;Robotics+Explorer;Still+Learning%2C+Still+Growing)](https://git.io/typing-svg)
-
-</div>
-
-<br>
 
 ##  About Me
 
@@ -170,11 +162,6 @@ If you find my projects helpful or interesting, consider supporting my studies!
 <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" height="50"/>
 </a>
 
-<br><br>
-
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
-<br>
 
 **"Learning today, building tomorrow"**
 
