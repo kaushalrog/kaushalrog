@@ -104,7 +104,7 @@ IEEE-published on autonomous robotics. Building intrusion detection that scores 
 <a name="feed"></a>
 ### `root@amrita:~$ journalctl -u kaushal`
 
-<!--START:BUILD_FEED-->
+<--START:BUILD_FEED-->
 ```
 ┌─ journalctl -u kaushal ────────────────────────────────┐
 │ 10 hours ago  PUSH     Smart-India-Hackathon-2026      │
