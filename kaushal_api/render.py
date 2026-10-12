@@ -9,12 +9,11 @@ def cell(value: object) -> str:
 
 
 def activity(snap: dict) -> str:
-    rows = []
+    rows = ['| Date (UTC) | Activity | Repository |', '| :--- | :--- | :--- |']
     for e in snap['feed'][:5]:
         display_repo = e['repo'] if len(e['repo']) <= 45 else e['repo'][:42] + '…'
-        label = {'PR': 'Pull request', 'PUSH': 'Push'}.get(e['label'], e['label'].title())
-        rows.append(f"- `{cell(e['at'][:10])}` &nbsp; **{cell(label)}** · [{cell(display_repo)}](https://github.com/{e['repo']}) — {cell(e['detail'] or 'Public activity')}")
-    return '\n'.join(rows) if rows else 'Recent public activity will appear here after your next GitHub update.'
+        rows.append(f"| {cell(e['at'][:10])} | {cell(e['label'].title())} · {cell(e['detail'] or 'Public activity')} | [{cell(display_repo)}](https://github.com/{e['repo']}) |")
+    return '\n'.join(rows) if snap['feed'] else 'Recent public activity will appear here after your next GitHub update.'
 
 
 def project_pulse(snap: dict) -> str:
@@ -41,28 +40,26 @@ def render_readme(template: str, snap: dict) -> str:
 
 
 def svg_shell(body: str, height: int, title: str, light: bool = False) -> str:
-    bg, fg, muted, border, accent = ('#eee9df', '#272520', '#696156', '#c5bcad', '#9b3e25') if light else ('#191817', '#eee9df', '#b5aa98', '#494239', '#e5a078')
+    bg, fg, muted, border, accent = ('#f6f8fa', '#172b26', '#4c625b', '#cbd8d1', '#087957') if light else ('#111b18', '#edf7f1', '#9db7aa', '#2b4036', '#a6efc4')
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="{height}" viewBox="0 0 900 {height}" role="img" aria-labelledby="title">
 <title id="title">{escape(title)}</title>
 <style>text{{font-family:system-ui,-apple-system,Segoe UI,sans-serif;fill:{fg}}}.muted{{fill:{muted}}}.accent{{fill:{accent}}}.mono{{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}}</style>
-<rect x="1" y="1" width="898" height="{height-2}" rx="0" fill="{bg}" stroke="{border}"/>{body}</svg>'''
+<rect x="1" y="1" width="898" height="{height-2}" rx="18" fill="{bg}" stroke="{border}"/>{body}</svg>'''
 
 
 def dashboard(snap: dict, light: bool = False) -> str:
-    stats = [(snap['totals']['own_repos'], 'OWN PUBLIC REPOS'), (snap['totals']['stars'], 'STARS ON OWN REPOS'), (snap['profile']['followers'], 'FOLLOWERS')]
-    body = '<text x="24" y="30" class="mono muted" font-size="11" letter-spacing="2">GITHUB / OBSERVATIONS</text>'
+    stats = [(snap['totals']['own_repos'], 'PUBLIC REPOSITORIES'), (snap['totals']['stars'], 'STARS · OWN REPOS'), (snap['profile']['followers'], 'FOLLOWERS')]
+    body = '<text x="32" y="38" class="mono muted" font-size="12" letter-spacing="2">GITHUB / AT A GLANCE</text><circle cx="860" cy="33" r="4" class="accent"/>'
     for i, (value, label) in enumerate(stats):
-        x = 24 + i * 298
-        if i:
-            body += f'<path d="M{x-16} 53V119" stroke="currentColor" opacity=".2"/>'
-        body += f'<text x="{x}" y="94" font-size="44" font-weight="400" style="font-family:Georgia,serif">{value:02d}</text><text x="{x}" y="119" font-size="11" letter-spacing="1" class="mono muted">{label}</text>'
+        x = 32 + i * 298
+        body += f'<text x="{x}" y="108" font-size="48" font-weight="650">{value}</text><text x="{x}" y="139" font-size="11" letter-spacing="1.5" class="mono muted">{label}</text>'
     date = escape(snap['generated_at'].replace('T', ' ').replace('Z', ' UTC'))
-    body += f'<text x="24" y="157" font-size="10" class="mono muted">PUBLIC DATA / {date}</text>'
-    return svg_shell(body, 178, 'Public GitHub profile metrics', light)
+    body += f'<text x="32" y="181" font-size="11" class="mono muted">PUBLIC DATA · UPDATED {date}</text>'
+    return svg_shell(body, 204, 'Public GitHub profile metrics', light)
 
 
 def language_card(snap: dict, light: bool = False) -> str:
-    colors = ['#d19572', '#b5aa98', '#97a594', '#b69b82', '#a0a6b0', '#c4b9a5']
+    colors = ['#62c69a', '#83b7e8', '#b8a2e8', '#e9bd7c', '#e599a4', '#a4bf95']
     body = '<text x="32" y="37" class="mono muted" font-size="12" letter-spacing="2">LANGUAGES / ACROSS PUBLIC REPOSITORIES</text>'
     x = 32.0
     langs = snap['languages']

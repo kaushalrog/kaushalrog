@@ -1,19 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="390" viewBox="0 0 900 390" role="img" aria-labelledby="title desc">
-<title id="title">Kaushal Reddy / Field notes</title><desc id="desc">AI, security and machines. Still compiling.</desc>
-<rect width="900" height="390" fill="#eee9df"/>
-<path d="M28 28H872V362H28Z" fill="none" stroke="#c5bcad"/>
-<path d="M28 72H872M28 307H872M656 72V307" stroke="#c5bcad"/>
-<g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11" fill="#696156" letter-spacing="1.5">
-<text x="48" y="55">KAUSHAL REDDY</text><text x="455" y="55">PERSONAL FIELD NOTES</text><text x="758" y="55">VOL. 01</text>
-<text x="48" y="336">AI / SECURITY / MACHINES</text><text x="48" y="352" font-size="8" letter-spacing="1">CODE + RESEARCH + THE OCCASIONAL ROBOT</text>
-<text x="700" y="341" font-size="10">@kaushalrog</text></g>
-<text x="43" y="191" font-family="Georgia,Times New Roman,serif" font-style="italic" font-size="111" letter-spacing="-6" fill="#272520">Kaushal.</text>
-<text x="49" y="240" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" letter-spacing="4" fill="#9b3e25">STILL COMPILING.</text>
-<path d="M49 264H609" stroke="#c5bcad"/>
-<g transform="translate(698 108)" fill="none" stroke="#9b3e25" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter">
-<path d="M0 0V140M76 0L0 70L76 140M76 140V0H112L136 24V48L112 70H76M112 70L148 140"/>
-</g>
-<g stroke="#696156" stroke-width=".7"><path d="M684 95h12m-6-6v12M847 281h12m-6-6v12"/></g>
-<text x="718" y="285" font-family="Georgia,serif" font-style="italic" font-size="12" fill="#696156">a work in progress</text>
-<rect x="28" y="28" width="54" height="3" fill="#9b3e25"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" role="img" aria-labelledby="title desc">
+<title id="title">Kaushal Reddy — AI systems, security and edge</title><desc id="desc">Intelligent by design. Reliable in the real world.</desc>
+<defs><clipPath id="clip"><rect width="900" height="340" rx="20"/></clipPath></defs>
+<g clip-path="url(#clip)"><rect width="900" height="340" fill="#f1f6f0"/><g stroke="#cfddcf" stroke-width="0.6" opacity="0.35"><path d="M0 0V340"/><path d="M60 0V340"/><path d="M120 0V340"/><path d="M180 0V340"/><path d="M240 0V340"/><path d="M300 0V340"/><path d="M360 0V340"/><path d="M420 0V340"/><path d="M480 0V340"/><path d="M540 0V340"/><path d="M600 0V340"/><path d="M660 0V340"/><path d="M720 0V340"/><path d="M780 0V340"/><path d="M840 0V340"/><path d="M900 0V340"/><path d="M0 0H900"/><path d="M0 60H900"/><path d="M0 120H900"/><path d="M0 180H900"/><path d="M0 240H900"/><path d="M0 300H900"/></g>
+<rect x="0" y="0" width="5" height="340" fill="#087957"/>
+<g fill="none" stroke="#cfddcf" stroke-width="1"><circle cx="756" cy="164" r="112"/><circle cx="756" cy="164" r="78"/><path d="M616 164H896M756 24V304"/></g>
+<g fill="none" stroke="#087957" stroke-width="1.5"><path d="M704 112h72l32 52-32 52h-72l-32-52z"/><path d="M704 112l72 104M776 112l-72 104M672 164h136" opacity=".55"/></g>
+<g fill="#087957"><circle cx="704" cy="112" r="5"/><circle cx="776" cy="112" r="5"/><circle cx="808" cy="164" r="5"/><circle cx="776" cy="216" r="5"/><circle cx="704" cy="216" r="5"/><circle cx="672" cy="164" r="5"/><circle cx="756" cy="52" r="4"/></g>
+<rect x="34" y="33" width="218" height="27" rx="13.5" fill="#e6eee3" stroke="#cfddcf"/>
+<circle cx="51" cy="46" r="3" fill="#087957"/>
+<g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" fill="#506b5d" font-size="10" letter-spacing="1.5"><text x="64" y="50">RESEARCH. BUILD. ITERATE.</text><text x="36" y="288">AI SYSTEMS</text><text x="155" y="288">/</text><text x="180" y="288">SECURITY</text><text x="284" y="288">/</text><text x="309" y="288">EDGE COMPUTING</text></g>
+<g font-family="system-ui,-apple-system,Segoe UI,sans-serif"><text x="32" y="133" fill="#152d24" font-size="57" font-weight="750" letter-spacing="-2.8">Kaushal Reddy<tspan fill="#087957">.</tspan></text><text x="36" y="187" fill="#087957" font-size="27" font-weight="500" letter-spacing="-.6">Intelligent by design.</text><text x="36" y="224" fill="#152d24" font-size="27" font-weight="500" letter-spacing="-.6">Reliable in the real world.</text></g>
+<path d="M36 253H486" stroke="#cfddcf"/>
+<text x="830" y="311" fill="#506b5d" font-size="9" font-family="monospace" letter-spacing="2">KR / 01</text></g></svg>

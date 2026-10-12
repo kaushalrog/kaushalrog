@@ -1,99 +1,95 @@
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img src="assets/banner.svg" width="100%" alt="Kaushal Reddy. Field notes on AI, security and machines. Still compiling.">
+  <img src="assets/banner.svg" width="100%" alt="Kaushal Reddy — AI systems, security and edge. Intelligent by design. Reliable in the real world.">
 </picture>
 
-<p>
-  <a href="https://kaushalrog.github.io/portfolio/"><b>PORTFOLIO ↗</b></a> &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/kaushal-s-19234b314/"><b>LINKEDIN ↗</b></a> &nbsp;&nbsp;
-  <a href="https://github.com/kaushalrog?tab=repositories"><b>REPOSITORIES ↗</b></a>
+<p align="center">
+  <a href="https://kaushalrog.github.io/portfolio/">Portfolio ↗</a> &nbsp; / &nbsp;
+  <a href="https://www.linkedin.com/in/kaushal-s-19234b314/">LinkedIn ↗</a> &nbsp; / &nbsp;
+  <a href="https://github.com/kaushalrog?tab=repositories">Explore my code ↗</a>
 </p>
 
-I work on **AI, security, and the machines they run on**. Most of my projects start with a question: can a retrieval system recognise a weak answer? Can an attack be detected without reading its payload? How much can a small robot do on a small budget?
+### Building intelligence that holds up outside the demo.
 
-This is where I keep the code behind those questions.
+I'm **Kaushal**, working at the intersection of **AI systems, cybersecurity, and edge computing**. I build systems that reason over research, detect behavioral threats, and make decisions under real-world constraints.
 
-<br>
-
-## 01 &nbsp; / &nbsp; Selected experiments
-
-### WDS-IDS &nbsp; `SECURITY / EDGE`
-
-**What does an attack look like to the operating system?**
-
-Behavioral intrusion detection using system telemetry, drift scoring, and an alert layer on a Raspberry Pi 5. The focus is what an attack makes the machine *do*.
-
-[Read the code ↗](https://github.com/kaushalrog/ids---System) &nbsp; <sub>Python · Behavioral analysis · Raspberry Pi</sub>
-
----
-
-### SciRAG-UQ &nbsp; `RETRIEVAL / UNCERTAINTY`
-
-**When should a research assistant say “I don't know”?**
-
-A scientific-literature RAG pipeline that combines retrieval evidence, contradiction detection, and self-consistency into a calibrated confidence signal. Abstention is part of the design.
-
-[Read the code ↗](https://github.com/kaushalrog/scirag-uq) &nbsp; <sub>Python · RAG · Confidence calibration</sub>
-
----
-
-### AntBot &nbsp; `ROBOTICS / HARDWARE`
-
-**A surveillance robot with six legs and a limited budget.**
-
-A hexapod platform exploring biologically inspired locomotion and low-cost surveillance hardware. This one leaves the notebook and walks around.
-
-[IEEE Xplore ↗](https://ieeexplore.ieee.org/abstract/document/11426098) &nbsp; [Robot repository ↗](https://github.com/kaushalrog/ANTBOT---The-Hexapod-Robot)
-
-<details>
-<summary><b>Also on the workbench</b> — traffic prediction &amp; image reconstruction</summary>
-
-**[TrafficFlow AI ↗](https://github.com/kaushalrog/TrafficFlowAI)** — traffic-signal decision support using machine learning and fuzzy logic, with a congestion dashboard.
-
-**[Low-dose CT reconstruction ↗](https://github.com/kaushalrog/mcdip-admm-ct-reconstruction)** — ADMM with a Multi-Code Deep Image Prior ensemble; evaluated on synthetic data with PSNR and SSIM.
-
-</details>
+My focus: useful models, measurable behavior, and software you can inspect. From uncertainty-aware retrieval to adaptive traffic control, I care about what happens when the inputs stop being predictable.
 
 <br>
 
-## 02 &nbsp; / &nbsp; Working set
+## Selected work
 
-**Python** is the common thread. Around it:
+<table>
+<tr>
+<td width="50%" valign="top">
+<sub>01 / SECURITY + EDGE</sub>
+<h3><a href="https://github.com/kaushalrog/ids---System">WDS-IDS ↗</a></h3>
+<p>Detecting attacks through operating-system behavior rather than web-request payloads. Built around telemetry, behavioral drift, and edge deployment.</p>
+<p><code>Python</code> <code>Intrusion detection</code> <code>Raspberry Pi</code></p>
+</td>
+<td width="50%" valign="top">
+<sub>02 / RETRIEVAL + REASONING</sub>
+<h3><a href="https://github.com/kaushalrog/scirag-uq">SciRAG-UQ ↗</a></h3>
+<p>Confidence-calibrated retrieval for scientific literature. Combining multiple evidence signals to decide when to answer and when to abstain.</p>
+<p><code>RAG</code> <code>Uncertainty</code> <code>Scientific AI</code></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub>03 / AI + URBAN SYSTEMS</sub>
+<h3><a href="https://github.com/kaushalrog/TrafficFlowAI">TrafficFlow AI ↗</a></h3>
+<p>Adaptive traffic-signal decision support, combining machine learning and fuzzy logic with a dashboard for real-time congestion insights.</p>
+<p><code>Machine learning</code> <code>Fuzzy logic</code> <code>Forecasting</code></p>
+</td>
+<td width="50%" valign="top">
+<sub>04 / VISION + OPTIMIZATION</sub>
+<h3><a href="https://github.com/kaushalrog/mcdip-admm-ct-reconstruction">Low-dose CT reconstruction ↗</a></h3>
+<p>Unsupervised image reconstruction using ADMM and a Multi-Code Deep Image Prior ensemble. Evaluated on synthetic data with PSNR and SSIM.</p>
+<p><code>Computer vision</code> <code>Deep learning</code> <code>ADMM</code></p>
+</td>
+</tr>
+</table>
 
-```text
-models       PyTorch · TensorFlow · scikit-learn · LightGBM
-retrieval    Transformers · FAISS · ChromaDB · RAG · MCP
-systems      Linux · Docker · FastAPI · GitHub Actions
-hardware     Raspberry Pi · Arduino
-languages    C++ · Java · SQL · Bash
-```
+**Research beyond the screen:** [AntBot — hexapod surveillance platform · IEEE Xplore ↗](https://ieeexplore.ieee.org/abstract/document/11426098)
 
 <br>
 
-## 03 &nbsp; / &nbsp; From the workbench
+## Tools I build with
+
+| Area | Toolkit |
+| :--- | :--- |
+| **Languages** | Python · C++ · Java · SQL · Bash |
+| **AI & machine learning** | PyTorch · TensorFlow · scikit-learn · LightGBM |
+| **LLM systems** | RAG · Transformers · Agentic AI · MCP · FAISS · ChromaDB |
+| **Systems & delivery** | Linux · Docker · FastAPI · REST APIs · GitHub Actions |
+| **Security & edge** | Behavioral analysis · Intrusion detection · Raspberry Pi · Arduino |
+
+<br>
+
+## In the build loop
 
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg">
-  <img src="assets/stats.svg" width="100%" alt="Public repository count, stars on my own repositories, and followers. Automatically refreshed from GitHub.">
+  <img src="assets/stats.svg" width="100%" alt="Automatically updated counts of public repositories, stars on my repositories, and followers.">
 </picture>
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/languages-light.svg">
+  <img src="assets/languages.svg" width="100%" alt="Language distribution by code bytes across my public, non-fork, non-archived repositories. Top six shown; this measures code volume, not proficiency.">
+</picture>
+
+### Recent public activity
 
 <!--START:ACTIVITY-->
 <!--END:ACTIVITY-->
 
 <details>
-<summary><b>Under the hood</b> — languages &amp; project activity</summary>
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/languages-light.svg">
-  <img src="assets/languages.svg" width="100%" alt="Top six languages by code bytes in my public repositories, excluding forks and archived projects. Code volume, not proficiency.">
-</picture>
+<summary><b>Project activity · last 30 days</b></summary>
 
 <!--START:PROJECT_PULSE-->
 <!--END:PROJECT_PULSE-->
 
-<sub>Commits are mine, on each project's default branch, over the last 30 days.</sub>
+<sub>My commits on each project's default branch. A quiet repository can be finished work; activity is not a quality score.</sub>
 
 </details>
 
@@ -101,8 +97,8 @@ languages    C++ · Java · SQL · Bash
 
 ---
 
-**Away from the keyboard** &nbsp; Campus photography with Team Media at Amrita. Badminton. Another paper in the reading queue.
+Outside the build loop: campus photography with Team Media at Amrita, badminton, and research papers that turn into experiments.
 
-[Have a question about the work? Find me here ↗](https://www.linkedin.com/in/kaushal-s-19234b314/)
+**Working on thoughtful AI or security tools?** [Let's connect ↗](https://www.linkedin.com/in/kaushal-s-19234b314/)
 
-<sub>KR / Field notes &nbsp; · &nbsp; <a href="https://github.com/kaushalrog/kaushalrog/actions/workflows/telemetry.yml">Auto-refresh: hourly</a> &nbsp; · &nbsp; {{GENERATED_AT}}</sub>
+<sub>Updated by <a href="https://github.com/kaushalrog/kaushalrog/actions/workflows/telemetry.yml">GitHub Actions</a> · hourly, on profile-repo pushes, or on demand · latest successful snapshot: {{GENERATED_AT}} · public data only.</sub>
