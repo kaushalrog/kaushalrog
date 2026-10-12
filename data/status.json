@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-12T06:21:12Z",
+  "generated_at": "2026-10-12T15:27:12Z",
   "user": "kaushalrog",
   "profile": {
-    "followers": 33,
+    "followers": 34,
     "public_repos": 43
   },
   "totals": {
@@ -16,9 +16,9 @@
     "label": "PR",
     "repo": "Rishithachappidi/Dynamic-Event-Triggered-and-Self-Triggered-Fault-Tolerant-Attitude-Control-for-Multiple-Spacecraft",
     "url": "https://github.com/Rishithachappidi/Dynamic-Event-Triggered-and-Self-Triggered-Fault-Tolerant-Attitude-Control-for-Multiple-Spacecraft",
-    "detail": "opened #1",
-    "at": "2026-10-12T06:01:04Z",
-    "ago": "20 min ago"
+    "detail": "merged #1",
+    "at": "2026-10-12T14:51:21Z",
+    "ago": "35 min ago"
   },
   "projects": [
     {
@@ -83,9 +83,57 @@
       "label": "PR",
       "repo": "Rishithachappidi/Dynamic-Event-Triggered-and-Self-Triggered-Fault-Tolerant-Attitude-Control-for-Multiple-Spacecraft",
       "url": "https://github.com/Rishithachappidi/Dynamic-Event-Triggered-and-Self-Triggered-Fault-Tolerant-Attitude-Control-for-Multiple-Spacecraft",
+      "detail": "merged #1",
+      "at": "2026-10-12T14:51:21Z",
+      "ago": "35 min ago"
+    },
+    {
+      "label": "PUSH",
+      "repo": "kaushalrog/GameMetric",
+      "url": "https://github.com/kaushalrog/GameMetric",
+      "detail": "Pushed code",
+      "at": "2026-10-12T11:11:07Z",
+      "ago": "4 hours ago"
+    },
+    {
+      "label": "PUSH",
+      "repo": "kaushalrog/GameMetric",
+      "url": "https://github.com/kaushalrog/GameMetric",
+      "detail": "Pushed code",
+      "at": "2026-10-12T11:10:46Z",
+      "ago": "4 hours ago"
+    },
+    {
+      "label": "PUSH",
+      "repo": "kaushalrog/GameMetric",
+      "url": "https://github.com/kaushalrog/GameMetric",
+      "detail": "Pushed code",
+      "at": "2026-10-12T11:10:38Z",
+      "ago": "4 hours ago"
+    },
+    {
+      "label": "PUSH",
+      "repo": "kaushalrog/GameMetric",
+      "url": "https://github.com/kaushalrog/GameMetric",
+      "detail": "Pushed code",
+      "at": "2026-10-12T11:09:55Z",
+      "ago": "4 hours ago"
+    },
+    {
+      "label": "PUSH",
+      "repo": "kaushalrog/GameMetric",
+      "url": "https://github.com/kaushalrog/GameMetric",
+      "detail": "Pushed code",
+      "at": "2026-10-12T11:09:11Z",
+      "ago": "4 hours ago"
+    },
+    {
+      "label": "PR",
+      "repo": "Rishithachappidi/Dynamic-Event-Triggered-and-Self-Triggered-Fault-Tolerant-Attitude-Control-for-Multiple-Spacecraft",
+      "url": "https://github.com/Rishithachappidi/Dynamic-Event-Triggered-and-Self-Triggered-Fault-Tolerant-Attitude-Control-for-Multiple-Spacecraft",
       "detail": "opened #1",
       "at": "2026-10-12T06:01:04Z",
-      "ago": "20 min ago"
+      "ago": "9 hours ago"
     },
     {
       "label": "PUSH",
@@ -93,87 +141,39 @@
       "url": "https://github.com/sahaya-amrita/safe-campus",
       "detail": "Pushed code",
       "at": "2026-10-11T11:06:24Z",
-      "ago": "19 hours ago"
-    },
-    {
-      "label": "PUSH",
-      "repo": "sahaya-amrita/safe-campus",
-      "url": "https://github.com/sahaya-amrita/safe-campus",
-      "detail": "Pushed code",
-      "at": "2026-10-11T10:55:48Z",
-      "ago": "19 hours ago"
-    },
-    {
-      "label": "PUSH",
-      "repo": "sahaya-amrita/safe-campus",
-      "url": "https://github.com/sahaya-amrita/safe-campus",
-      "detail": "Pushed code",
-      "at": "2026-10-11T10:49:03Z",
-      "ago": "19 hours ago"
-    },
-    {
-      "label": "PUSH",
-      "repo": "kaushalrog/Dynamic-Event-Triggered-and-Self-Triggered-Fault-Tolerant-Attitude-Control-for-Multiple-Spacecraft",
-      "url": "https://github.com/kaushalrog/Dynamic-Event-Triggered-and-Self-Triggered-Fault-Tolerant-Attitude-Control-for-Multiple-Spacecraft",
-      "detail": "Pushed code",
-      "at": "2026-10-09T17:26:55Z",
-      "ago": "2 days ago"
-    },
-    {
-      "label": "PUSH",
-      "repo": "kaushalrog/Dynamic-Event-Triggered-and-Self-Triggered-Fault-Tolerant-Attitude-Control-for-Multiple-Spacecraft",
-      "url": "https://github.com/kaushalrog/Dynamic-Event-Triggered-and-Self-Triggered-Fault-Tolerant-Attitude-Control-for-Multiple-Spacecraft",
-      "detail": "Pushed code",
-      "at": "2026-10-08T18:00:33Z",
-      "ago": "3 days ago"
-    },
-    {
-      "label": "FORK",
-      "repo": "Rishithachappidi/Dynamic-Event-Triggered-and-Self-Triggered-Fault-Tolerant-Attitude-Control-for-Multiple-Spacecraft",
-      "url": "https://github.com/Rishithachappidi/Dynamic-Event-Triggered-and-Self-Triggered-Fault-Tolerant-Attitude-Control-for-Multiple-Spacecraft",
-      "detail": "",
-      "at": "2026-10-08T17:59:42Z",
-      "ago": "3 days ago"
-    },
-    {
-      "label": "PUSH",
-      "repo": "kaushalrog/AG-DATA",
-      "url": "https://github.com/kaushalrog/AG-DATA",
-      "detail": "Pushed code",
-      "at": "2026-10-08T05:39:41Z",
-      "ago": "4 days ago"
+      "ago": "1 day ago"
     }
   ],
   "languages": [
     {
       "name": "Jupyter Notebook",
-      "pct": 29.7,
+      "pct": 28.5,
       "bytes": 1234648
     },
     {
       "name": "Python",
-      "pct": 24.9,
+      "pct": 23.9,
       "bytes": 1034108
     },
     {
       "name": "TypeScript",
-      "pct": 20.9,
-      "bytes": 865630
+      "pct": 23.4,
+      "bytes": 1010422
     },
     {
       "name": "HTML",
-      "pct": 17.6,
-      "bytes": 730445
+      "pct": 16.9,
+      "bytes": 731024
     },
     {
       "name": "Scala",
-      "pct": 4.1,
+      "pct": 4.0,
       "bytes": 171368
     },
     {
-      "name": "TeX",
+      "name": "CSS",
       "pct": 1.2,
-      "bytes": 48180
+      "bytes": 49842
     }
   ]
 }
