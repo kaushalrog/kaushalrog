@@ -13,7 +13,7 @@ import pathlib
 import sys
 
 from .collect import collect_safe
-from .render import render_readme
+from .render import render_readme, dashboard, language_card
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
@@ -37,12 +37,23 @@ def main(argv: list[str] | None = None) -> int:
             print(f"collect failed: {err}", file=sys.stderr)
             return 1
 
+    template = pathlib.Path(args.template).read_text()
+    readme = render_readme(template, snap)
+    cards = {
+        f"{name}{'-light' if light else ''}.svg": renderer(snap, light)
+        for name, renderer in (("stats", dashboard), ("languages", language_card))
+        for light in (False, True)
+    }
+    assets = pathlib.Path(args.out).parent / "assets"
+    assets.mkdir(parents=True, exist_ok=True)
+    for filename, content in cards.items():
+        (assets / filename).write_text(content)
+
     data_path = pathlib.Path(args.data)
     data_path.parent.mkdir(parents=True, exist_ok=True)
     data_path.write_text(json.dumps(snap, indent=2) + "\n")
 
-    template = pathlib.Path(args.template).read_text()
-    pathlib.Path(args.out).write_text(render_readme(template, snap))
+    pathlib.Path(args.out).write_text(readme)
     print(f"rendered {args.out} from snapshot at {snap['generated_at']}")
     return 0
 

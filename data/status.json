@@ -1,0 +1,179 @@
+{
+  "generated_at": "2026-10-12T06:12:23Z",
+  "user": "kaushalrog",
+  "profile": {
+    "followers": 33,
+    "public_repos": 43
+  },
+  "totals": {
+    "stars": 25,
+    "own_repos": 21,
+    "commits_30d": 1,
+    "contributions_year": null,
+    "streak_days": null
+  },
+  "latest": {
+    "label": "PR",
+    "repo": "Rishithachappidi/Dynamic-Event-Triggered-and-Self-Triggered-Fault-Tolerant-Attitude-Control-for-Multiple-Spacecraft",
+    "url": "https://github.com/Rishithachappidi/Dynamic-Event-Triggered-and-Self-Triggered-Fault-Tolerant-Attitude-Control-for-Multiple-Spacecraft",
+    "detail": "opened #1",
+    "at": "2026-10-12T06:01:04Z",
+    "ago": "11 min ago"
+  },
+  "projects": [
+    {
+      "key": "WDS-IDS",
+      "repo": "ids---System",
+      "status": "RESEARCH",
+      "blurb": "behavioral intrusion detection, no payload inspection",
+      "evidence": "SRBH-20, 5-fold CV, <12ms end-to-end on Pi 5",
+      "exists": true,
+      "stars": 2,
+      "pushed_at": "2026-08-27T06:34:50Z",
+      "last_push": "1 month ago",
+      "commits_30d": 0,
+      "ci": null,
+      "ci_run_url": null
+    },
+    {
+      "key": "SciRAG-UQ",
+      "repo": "scirag-uq",
+      "status": "BUILDING",
+      "blurb": "uncertainty-aware RAG that abstains instead of guessing",
+      "evidence": "target venue: BDA 2026",
+      "exists": true,
+      "stars": 1,
+      "pushed_at": "2026-07-02T04:09:43Z",
+      "last_push": "3 months ago",
+      "commits_30d": 0,
+      "ci": null,
+      "ci_run_url": null
+    },
+    {
+      "key": "TrafficFlow",
+      "repo": "TrafficFlowAI",
+      "status": "ACCEPTED",
+      "blurb": "hybrid fuzzy-AI adaptive signal control",
+      "evidence": "accepted, ICPEEV 2026, Mahindra University",
+      "exists": true,
+      "stars": 3,
+      "pushed_at": "2026-09-23T17:55:46Z",
+      "last_push": "18 days ago",
+      "commits_30d": 1,
+      "ci": null,
+      "ci_run_url": null
+    },
+    {
+      "key": "CT Reconstruction",
+      "repo": "mcdip-admm-ct-reconstruction",
+      "status": "RESEARCH",
+      "blurb": "unsupervised low-dose CT reconstruction with ADMM and Deep Image Prior",
+      "evidence": "synthetic-data evaluation using PSNR and SSIM",
+      "exists": true,
+      "stars": 3,
+      "pushed_at": "2026-06-23T15:15:15Z",
+      "last_push": "3 months ago",
+      "commits_30d": 0,
+      "ci": null,
+      "ci_run_url": null
+    }
+  ],
+  "feed": [
+    {
+      "label": "PR",
+      "repo": "Rishithachappidi/Dynamic-Event-Triggered-and-Self-Triggered-Fault-Tolerant-Attitude-Control-for-Multiple-Spacecraft",
+      "url": "https://github.com/Rishithachappidi/Dynamic-Event-Triggered-and-Self-Triggered-Fault-Tolerant-Attitude-Control-for-Multiple-Spacecraft",
+      "detail": "opened #1",
+      "at": "2026-10-12T06:01:04Z",
+      "ago": "11 min ago"
+    },
+    {
+      "label": "PUSH",
+      "repo": "sahaya-amrita/safe-campus",
+      "url": "https://github.com/sahaya-amrita/safe-campus",
+      "detail": "Pushed code",
+      "at": "2026-10-11T11:06:24Z",
+      "ago": "19 hours ago"
+    },
+    {
+      "label": "PUSH",
+      "repo": "sahaya-amrita/safe-campus",
+      "url": "https://github.com/sahaya-amrita/safe-campus",
+      "detail": "Pushed code",
+      "at": "2026-10-11T10:55:48Z",
+      "ago": "19 hours ago"
+    },
+    {
+      "label": "PUSH",
+      "repo": "sahaya-amrita/safe-campus",
+      "url": "https://github.com/sahaya-amrita/safe-campus",
+      "detail": "Pushed code",
+      "at": "2026-10-11T10:49:03Z",
+      "ago": "19 hours ago"
+    },
+    {
+      "label": "PUSH",
+      "repo": "kaushalrog/Dynamic-Event-Triggered-and-Self-Triggered-Fault-Tolerant-Attitude-Control-for-Multiple-Spacecraft",
+      "url": "https://github.com/kaushalrog/Dynamic-Event-Triggered-and-Self-Triggered-Fault-Tolerant-Attitude-Control-for-Multiple-Spacecraft",
+      "detail": "Pushed code",
+      "at": "2026-10-09T17:26:55Z",
+      "ago": "2 days ago"
+    },
+    {
+      "label": "PUSH",
+      "repo": "kaushalrog/Dynamic-Event-Triggered-and-Self-Triggered-Fault-Tolerant-Attitude-Control-for-Multiple-Spacecraft",
+      "url": "https://github.com/kaushalrog/Dynamic-Event-Triggered-and-Self-Triggered-Fault-Tolerant-Attitude-Control-for-Multiple-Spacecraft",
+      "detail": "Pushed code",
+      "at": "2026-10-08T18:00:33Z",
+      "ago": "3 days ago"
+    },
+    {
+      "label": "FORK",
+      "repo": "Rishithachappidi/Dynamic-Event-Triggered-and-Self-Triggered-Fault-Tolerant-Attitude-Control-for-Multiple-Spacecraft",
+      "url": "https://github.com/Rishithachappidi/Dynamic-Event-Triggered-and-Self-Triggered-Fault-Tolerant-Attitude-Control-for-Multiple-Spacecraft",
+      "detail": "",
+      "at": "2026-10-08T17:59:42Z",
+      "ago": "3 days ago"
+    },
+    {
+      "label": "PUSH",
+      "repo": "kaushalrog/AG-DATA",
+      "url": "https://github.com/kaushalrog/AG-DATA",
+      "detail": "Pushed code",
+      "at": "2026-10-08T05:39:41Z",
+      "ago": "4 days ago"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Jupyter Notebook",
+      "pct": 29.7,
+      "bytes": 1234648
+    },
+    {
+      "name": "Python",
+      "pct": 24.9,
+      "bytes": 1033139
+    },
+    {
+      "name": "TypeScript",
+      "pct": 20.9,
+      "bytes": 865630
+    },
+    {
+      "name": "HTML",
+      "pct": 17.6,
+      "bytes": 730445
+    },
+    {
+      "name": "Scala",
+      "pct": 4.1,
+      "bytes": 171368
+    },
+    {
+      "name": "TeX",
+      "pct": 1.2,
+      "bytes": 48180
+    }
+  ]
+}

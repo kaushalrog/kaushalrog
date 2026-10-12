@@ -4,7 +4,7 @@ Everything else in this package is derived from the GitHub API. This file is the
 only place you hand-edit when a project's status changes.
 """
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 
 USER = "kaushalrog"
 
@@ -27,14 +27,14 @@ class Project:
 PROJECTS: list[Project] = [
     Project(
         key="WDS-IDS",
-        repo="ids-System",
+        repo="ids---System",
         status="RESEARCH",
         blurb="behavioral intrusion detection, no payload inspection",
         evidence="SRBH-20, 5-fold CV, <12ms end-to-end on Pi 5",
     ),
     Project(
         key="SciRAG-UQ",
-        repo="SciRAG-UQ",
+        repo="scirag-uq",
         status="BUILDING",
         blurb="uncertainty-aware RAG that abstains instead of guessing",
         evidence="target venue: BDA 2026",
@@ -47,11 +47,11 @@ PROJECTS: list[Project] = [
         evidence="accepted, ICPEEV 2026, Mahindra University",
     ),
     Project(
-        key="AntBot",
-        repo="AntBot",
-        status="PUBLISHED",
-        blurb="low-cost hexapod surveillance platform",
-        evidence="IEEE, Jan 2026 — document/11426098",
+        key="CT Reconstruction",
+        repo="mcdip-admm-ct-reconstruction",
+        status="RESEARCH",
+        blurb="unsupervised low-dose CT reconstruction with ADMM and Deep Image Prior",
+        evidence="synthetic-data evaluation using PSNR and SSIM",
     ),
 ]
 
@@ -67,11 +67,5 @@ EVENT_LABELS: dict[str, str] = {
     "IssueCommentEvent": "COMMENT",
 }
 
-# Markers in README.template.md that get replaced with generated blocks.
-BLOCKS: tuple[str, ...] = (
-    "SYSTEM_STATUS",
-    "PROJECT_TABLE",
-    "BUILD_FEED",
-    "STACK_TELEMETRY",
-    "CI_STATUS",
-)
+# Generated regions in README.template.md.
+BLOCKS = ("ACTIVITY", "PROJECT_PULSE")

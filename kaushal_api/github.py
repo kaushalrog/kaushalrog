@@ -93,16 +93,17 @@ class GitHub:
 
     def commit_count(self, login: str, repo: str, since_iso: str) -> int:
         """Commits by `login` on the default branch since a timestamp."""
-        try:
+        count = 0
+        page = 1
+        while True:
             commits = self.get(
                 f"/repos/{login}/{repo}/commits",
-                author=login,
-                since=since_iso,
-                per_page=100,
+                author=login, since=since_iso, per_page=100, page=page,
             )
-        except GitHubError:
-            return 0
-        return len(commits) if isinstance(commits, list) else 0
+            count += len(commits)
+            if len(commits) < 100:
+                return count
+            page += 1
 
     def latest_run(self, login: str, repo: str) -> dict | None:
         """Most recent GitHub Actions run, or None if the repo has no CI."""
@@ -114,10 +115,7 @@ class GitHub:
         return runs[0] if runs else None
 
     def languages(self, login: str, repo: str) -> dict[str, int]:
-        try:
-            return self.get(f"/repos/{login}/{repo}/languages") or {}
-        except GitHubError:
-            return {}
+        return self.get(f"/repos/{login}/{repo}/languages") or {}
 
     def contributions(self, login: str) -> dict | None:
         """Contribution totals and current streak.

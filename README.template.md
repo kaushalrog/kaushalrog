@@ -1,115 +1,104 @@
-```
-┌──────────────────────────────────────────────┐
-│                                              │
-│   KAUSHAL S                                  │
-│   AI SYSTEMS × SECURITY × EDGE               │
-│                                              │
-└──────────────────────────────────────────────┘
-```
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img src="assets/banner.svg" width="100%" alt="Kaushal Reddy — AI systems, security and edge. Intelligent by design. Reliable in the real world.">
+</picture>
 
-<a href="https://kaushalrog.github.io/portfolio"><img src="https://img.shields.io/badge/PORTFOLIO-00FF9C?style=flat-square&logo=vercel&logoColor=black&labelColor=0F0F0F"/></a>
-<a href="https://linkedin.com/in/kaushal-s-19234b314"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=0F0F0F"/></a>
-<a href="https://github.com/kaushalrog/kaushal-api"><img src="https://img.shields.io/badge/THIS_README_IS_A_SERVICE-00FF9C?style=flat-square&logo=githubactions&logoColor=black&labelColor=0F0F0F"/></a>
+<p align="center">
+  <a href="https://kaushalrog.github.io/portfolio/">Portfolio ↗</a> &nbsp; / &nbsp;
+  <a href="https://www.linkedin.com/in/kaushal-s-19234b314/">LinkedIn ↗</a> &nbsp; / &nbsp;
+  <a href="https://github.com/kaushalrog?tab=repositories">Explore my code ↗</a>
+</p>
 
----
+### Building intelligence that holds up outside the demo.
 
-### `root@amrita:~$ systemctl status kaushal`
+I'm **Kaushal**, working at the intersection of **AI systems, cybersecurity, and edge computing**. I build systems that reason over research, detect behavioral threats, and make decisions under real-world constraints.
 
-<!--START:SYSTEM_STATUS-->
-<!--END:SYSTEM_STATUS-->
+My focus: useful models, measurable behavior, and software you can inspect. From uncertainty-aware retrieval to adaptive traffic control, I care about what happens when the inputs stop being predictable.
 
----
+<br>
 
-### `root@amrita:~$ whoami`
+## Selected work
 
-I build intelligent systems that have to survive real-world constraints — attackers, latency budgets, unreliable sensors, and their own uncertainty. Security-first AI, not AI with security bolted on.
+<table>
+<tr>
+<td width="50%" valign="top">
+<sub>01 / SECURITY + EDGE</sub>
+<h3><a href="https://github.com/kaushalrog/ids---System">WDS-IDS ↗</a></h3>
+<p>Detecting attacks through operating-system behavior rather than web-request payloads. Built around telemetry, behavioral drift, and edge deployment.</p>
+<p><code>Python</code> <code>Intrusion detection</code> <code>Raspberry Pi</code></p>
+</td>
+<td width="50%" valign="top">
+<sub>02 / RETRIEVAL + REASONING</sub>
+<h3><a href="https://github.com/kaushalrog/scirag-uq">SciRAG-UQ ↗</a></h3>
+<p>Confidence-calibrated retrieval for scientific literature. Combining multiple evidence signals to decide when to answer and when to abstain.</p>
+<p><code>RAG</code> <code>Uncertainty</code> <code>Scientific AI</code></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub>03 / AI + URBAN SYSTEMS</sub>
+<h3><a href="https://github.com/kaushalrog/TrafficFlowAI">TrafficFlow AI ↗</a></h3>
+<p>Adaptive traffic-signal decision support, combining machine learning and fuzzy logic with a dashboard for real-time congestion insights.</p>
+<p><code>Machine learning</code> <code>Fuzzy logic</code> <code>Forecasting</code></p>
+</td>
+<td width="50%" valign="top">
+<sub>04 / VISION + OPTIMIZATION</sub>
+<h3><a href="https://github.com/kaushalrog/mcdip-admm-ct-reconstruction">Low-dose CT reconstruction ↗</a></h3>
+<p>Unsupervised image reconstruction using ADMM and a Multi-Code Deep Image Prior ensemble. Evaluated on synthetic data with PSNR and SSIM.</p>
+<p><code>Computer vision</code> <code>Deep learning</code> <code>ADMM</code></p>
+</td>
+</tr>
+</table>
 
-IEEE-published on autonomous robotics. Building intrusion detection that scores behavioral drift in under 12ms on a Raspberry Pi 5, and RAG systems that abstain instead of hallucinating an answer.
+**Research beyond the screen:** [AntBot — hexapod surveillance platform · IEEE Xplore ↗](https://ieeexplore.ieee.org/abstract/document/11426098)
 
----
+<br>
 
-### `root@amrita:~$ top -p projects`
+## Tools I build with
 
-<!--START:PROJECT_TABLE-->
-<!--END:PROJECT_TABLE-->
+| Area | Toolkit |
+| :--- | :--- |
+| **Languages** | Python · C++ · Java · SQL · Bash |
+| **AI & machine learning** | PyTorch · TensorFlow · scikit-learn · LightGBM |
+| **LLM systems** | RAG · Transformers · Agentic AI · MCP · FAISS · ChromaDB |
+| **Systems & delivery** | Linux · Docker · FastAPI · REST APIs · GitHub Actions |
+| **Security & edge** | Behavioral analysis · Intrusion detection · Raspberry Pi · Arduino |
 
-**WDS-IDS** `[RESEARCH]`
-Behavioral intrusion detection with no payload inspection — telemetry collector, drift scorer, and alert layer as independent services on a Raspberry Pi 5.
-*Measured on SRBH-20 (web attacks) under five-fold cross-validation: perfect recall and AUC 1.00, end-to-end latency under 12ms. A saturated score on a single benchmark says as much about the dataset as the detector — cross-dataset evaluation is the current work.*
-`[CODE]` github.com/kaushalrog/ids-System
+<br>
 
-**SciRAG-UQ** `[RESEARCH — in progress]`
-Uncertainty-aware RAG for scientific literature synthesis. Three-signal confidence — retrieval, NLI contradiction, self-consistency — Platt-scaled into a threshold that decides when to abstain.
-`[CODE]` github.com/kaushalrog/SciRAG-UQ
+## In the build loop
 
-**AntBot** `[PUBLISHED]`
-Low-cost 18-DOF hexapod surveillance platform with biologically inspired gait planning, built against cost and mobility constraints.
-`[PAPER]` ieeexplore.ieee.org/abstract/document/11426098
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg">
+  <img src="assets/stats.svg" width="100%" alt="Automatically updated counts of public repositories, stars on my repositories, and followers.">
+</picture>
 
-**TrafficFlow AI** `[ACCEPTED]`
-Adaptive traffic signal control — LSTM, Random Forest, LightGBM and fuzzy logic in a hybrid predictor, with a real-time congestion dashboard.
-`[VENUE]` ICPEEV 2026, Mahindra University
-`[CODE]` github.com/kaushalrog/TrafficFlowAI
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/languages-light.svg">
+  <img src="assets/languages.svg" width="100%" alt="Language distribution by code bytes across my public, non-fork, non-archived repositories. Top six shown; this measures code volume, not proficiency.">
+</picture>
 
----
+### Recent public activity
 
-### `root@amrita:~$ journalctl -u kaushal`
+<!--START:ACTIVITY-->
+<!--END:ACTIVITY-->
 
-<!--START:BUILD_FEED-->
-<!--END:BUILD_FEED-->
+<details>
+<summary><b>Project activity · last 30 days</b></summary>
 
----
+<!--START:PROJECT_PULSE-->
+<!--END:PROJECT_PULSE-->
 
-### `root@amrita:~$ systemctl status --failed`
+<sub>My commits on each project's default branch. A quiet repository can be finished work; activity is not a quality score.</sub>
 
-<!--START:CI_STATUS-->
-<!--END:CI_STATUS-->
+</details>
 
----
-
-### `root@amrita:~$ cat evidence.log`
-
-```
-[PUBLICATION]   IEEE, Jan 2026 ............ AntBot hexapod surveillance
-[ACCEPTED]      ICPEEV 2026 ............... TrafficFlow AI
-[SUBMITTING]    BDA 2026 (target) ......... SciRAG-UQ
-[OPEN SOURCE]   Vulkan-Loader ............. 5 verified fixes (C)
-                Atomic Red Team ........... 12 fixes (Python/Ruby)
-                MITRE CTI ................. validator + Actions CI
-```
-
----
-
-### `root@amrita:~$ dpkg --list | grep skills`
-
-**LANGUAGES** — Python · C++ · Java · SQL · Bash
-
-**AI / ML** — PyTorch · TensorFlow · scikit-learn · LightGBM · LSTM
-
-**LLM SYSTEMS** — RAG · Agentic AI · Transformers · MCP · FAISS · ChromaDB · Uncertainty Quantification
-
-**SECURITY** — Intrusion Detection · Behavioral Analysis · Drift Detection · Kali Linux
-
-**SYSTEMS** — Linux · Docker · FastAPI · Microservices · REST APIs
-
-**EDGE / ROBOTICS** — Raspberry Pi · Arduino · Edge Computing · Gait Planning
-
-<!--START:STACK_TELEMETRY-->
-<!--END:STACK_TELEMETRY-->
+<br>
 
 ---
 
-### `root@amrita:~$ man kaushal | grep -A2 "off duty"`
+Outside the build loop: campus photography with Team Media at Amrita, badminton, and research papers that turn into experiments.
 
-📸 Shooting campus events for Team Media, Amrita — full frame to full stack.
-🏸 Badminton — the one arena where the loss function is honest.
-📖 Reading papers I'll probably try to break in six months.
+**Working on thoughtful AI or security tools?** [Let's connect ↗](https://www.linkedin.com/in/kaushal-s-19234b314/)
 
----
-
-<sub>Panels above are generated from the GitHub API by <a href="https://github.com/kaushalrog/kaushal-api">kaushal-api</a> and committed by a scheduled workflow. Last run: {{GENERATED_AT}}</sub>
-
-```
-root@amrita:~# exit
-connection closed.
-```
+<sub>Updated by <a href="https://github.com/kaushalrog/kaushalrog/actions/workflows/telemetry.yml">GitHub Actions</a> · hourly, on profile-repo pushes, or on demand · latest successful snapshot: {{GENERATED_AT}} · public data only.</sub>

@@ -67,7 +67,7 @@ def _event_detail(event: dict) -> str:
         if commits:
             msg = commits[-1].get("message", "").splitlines()[0]
             return msg[:52]
-        return f"{payload.get('size', 0)} commits"
+        return "Pushed code"
     if event["type"] == "PullRequestEvent":
         pr = payload.get("pull_request") or {}
         return f"{payload.get('action', '')} #{pr.get('number', '?')}"
@@ -85,15 +85,15 @@ def collect(gh: GitHub | None = None, user: str = USER, now: datetime | None = N
 
     profile = gh.user(user)
     repos = gh.repos(user)
-    by_name = {r["name"]: r for r in repos}
-    events = gh.events(user)
+    by_name = {r["name"].lower(): r for r in repos}
+    events = sorted(gh.events(user), key=lambda e: e.get("created_at", ""), reverse=True)
 
     # --- projects ---------------------------------------------------------
     projects = []
     for spec in PROJECTS:
-        repo = by_name.get(spec.repo)
+        repo = by_name.get(spec.repo.lower())
         commits = gh.commit_count(user, spec.repo, since) if repo else 0
-        run = gh.latest_run(user, spec.repo) if repo else None
+        run = None  # CI health is not part of the public profile.
         projects.append(
             {
                 "key": spec.key,
@@ -115,12 +115,14 @@ def collect(gh: GitHub | None = None, user: str = USER, now: datetime | None = N
     feed = []
     for event in events:
         label = EVENT_LABELS.get(event.get("type", ""))
-        if not label:
+        event_repo = (event.get("repo") or {}).get("name", "")
+        if not label or event_repo.lower() == f"{user}/{user}".lower():
             continue
         feed.append(
             {
                 "label": label,
-                "repo": (event.get("repo") or {}).get("name", "").split("/")[-1],
+                "repo": event_repo,
+                "url": f"https://github.com/{event_repo}",
                 "detail": _event_detail(event),
                 "at": event["created_at"],
                 "ago": relative(event["created_at"], now),
@@ -142,12 +144,8 @@ def collect(gh: GitHub | None = None, user: str = USER, now: datetime | None = N
         for name, size in sorted(mix.items(), key=lambda kv: -kv[1])[:6]
     ]
 
-    # --- contributions (optional, needs a PAT) -----------------------------
-    contrib = gh.contributions(user)
-    streak = _streak(contrib["contributionCalendar"], now) if contrib else None
-    total_contributions = (
-        contrib["contributionCalendar"]["totalContributions"] if contrib else None
-    )
+    streak = None
+    total_contributions = None
 
     latest = feed[0] if feed else None
     return {
@@ -158,7 +156,7 @@ def collect(gh: GitHub | None = None, user: str = USER, now: datetime | None = N
             "public_repos": profile.get("public_repos", 0),
         },
         "totals": {
-            "stars": sum(r.get("stargazers_count", 0) for r in repos),
+            "stars": sum(r.get("stargazers_count", 0) for r in repos if not r.get("fork")),
             "own_repos": sum(1 for r in repos if not r.get("fork")),
             "commits_30d": sum(p["commits_30d"] for p in projects),
             "contributions_year": total_contributions,

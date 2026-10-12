@@ -71,7 +71,7 @@ def languages() -> list[dict]:
 
 @app.get("/api/panel/{name}")
 def panel(name: str) -> dict:
-    """The rendered ASCII block, handy for embedding elsewhere."""
+    """The rendered Markdown block, handy for embedding elsewhere."""
     key = name.upper()
     if key not in RENDERERS:
         raise HTTPException(404, f"unknown panel: {name}")
