@@ -1,14 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" role="img" aria-labelledby="title desc">
-<title id="title">Kaushal Reddy — AI systems, security and edge</title><desc id="desc">Intelligent by design. Reliable in the real world.</desc>
-<defs><clipPath id="clip"><rect width="900" height="340" rx="20"/></clipPath></defs>
-<g clip-path="url(#clip)"><rect width="900" height="340" fill="#0c1511"/><g stroke="#294133" stroke-width="0.6" opacity="0.35"><path d="M0 0V340"/><path d="M60 0V340"/><path d="M120 0V340"/><path d="M180 0V340"/><path d="M240 0V340"/><path d="M300 0V340"/><path d="M360 0V340"/><path d="M420 0V340"/><path d="M480 0V340"/><path d="M540 0V340"/><path d="M600 0V340"/><path d="M660 0V340"/><path d="M720 0V340"/><path d="M780 0V340"/><path d="M840 0V340"/><path d="M900 0V340"/><path d="M0 0H900"/><path d="M0 60H900"/><path d="M0 120H900"/><path d="M0 180H900"/><path d="M0 240H900"/><path d="M0 300H900"/></g>
-<rect x="0" y="0" width="5" height="340" fill="#b4efbd"/>
-<g fill="none" stroke="#294133" stroke-width="1"><circle cx="756" cy="164" r="112"/><circle cx="756" cy="164" r="78"/><path d="M616 164H896M756 24V304"/></g>
-<g fill="none" stroke="#b4efbd" stroke-width="1.5"><path d="M704 112h72l32 52-32 52h-72l-32-52z"/><path d="M704 112l72 104M776 112l-72 104M672 164h136" opacity=".55"/></g>
-<g fill="#b4efbd"><circle cx="704" cy="112" r="5"/><circle cx="776" cy="112" r="5"/><circle cx="808" cy="164" r="5"/><circle cx="776" cy="216" r="5"/><circle cx="704" cy="216" r="5"/><circle cx="672" cy="164" r="5"/><circle cx="756" cy="52" r="4"/></g>
-<rect x="34" y="33" width="218" height="27" rx="13.5" fill="#12231a" stroke="#294133"/>
-<circle cx="51" cy="46" r="3" fill="#b4efbd"/>
-<g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" fill="#9db7a5" font-size="10" letter-spacing="1.5"><text x="64" y="50">RESEARCH. BUILD. ITERATE.</text><text x="36" y="288">AI SYSTEMS</text><text x="155" y="288">/</text><text x="180" y="288">SECURITY</text><text x="284" y="288">/</text><text x="309" y="288">EDGE COMPUTING</text></g>
-<g font-family="system-ui,-apple-system,Segoe UI,sans-serif"><text x="32" y="133" fill="#edf7ee" font-size="57" font-weight="750" letter-spacing="-2.8">Kaushal Reddy<tspan fill="#b4efbd">.</tspan></text><text x="36" y="187" fill="#b4efbd" font-size="27" font-weight="500" letter-spacing="-.6">Intelligent by design.</text><text x="36" y="224" fill="#edf7ee" font-size="27" font-weight="500" letter-spacing="-.6">Reliable in the real world.</text></g>
-<path d="M36 253H486" stroke="#294133"/>
-<text x="830" y="311" fill="#9db7a5" font-size="9" font-family="monospace" letter-spacing="2">KR / 01</text></g></svg>
+<title id="title">Kaushal Reddy: AI systems, security and edge computing</title>
+<desc id="desc">A terminal types whoami, then cycles through what Kaushal is working on. A behaviour signal on the right shows one flagged anomaly.</desc>
+<style>
+.p{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#b4efbd} .cmd{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#edf7ee} .out{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#9db7a5}
+.lbl{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#9db7a5;letter-spacing:1.6px} .name{font-family:system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif;fill:#edf7ee;font-weight:750;letter-spacing:-1.6px}
+.tag{font-family:system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif;font-weight:500;letter-spacing:-.4px}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs><clipPath id="clip"><rect width="900" height="340" rx="20"/></clipPath>
+<clipPath id="trace"><rect x="600" y="80" width="0" height="160"><animate attributeName="width" from="0" to="280" begin="1.2s" dur="2.6s" fill="freeze"/></rect></clipPath></defs>
+<g clip-path="url(#clip)">
+<rect width="900" height="340" fill="#0c1511"/>
+<g stroke="#1d3026" stroke-width="0.6"><path d="M0 0V340"/><path d="M45 0V340"/><path d="M90 0V340"/><path d="M135 0V340"/><path d="M180 0V340"/><path d="M225 0V340"/><path d="M270 0V340"/><path d="M315 0V340"/><path d="M360 0V340"/><path d="M405 0V340"/><path d="M450 0V340"/><path d="M495 0V340"/><path d="M540 0V340"/><path d="M585 0V340"/><path d="M630 0V340"/><path d="M675 0V340"/><path d="M720 0V340"/><path d="M765 0V340"/><path d="M810 0V340"/><path d="M855 0V340"/><path d="M900 0V340"/><path d="M0 0H900"/><path d="M0 45H900"/><path d="M0 90H900"/><path d="M0 135H900"/><path d="M0 180H900"/><path d="M0 225H900"/><path d="M0 270H900"/><path d="M0 315H900"/></g>
+<rect x="24" y="22" width="548" height="296" rx="12" fill="#111d17" stroke="#294133"/>
+<path d="M24 52H572" stroke="#294133"/>
+<circle cx="44" cy="37" r="5" fill="#ff7a6b"/><circle cx="62" cy="37" r="5" fill="#e9bd7c"/><circle cx="80" cy="37" r="5" fill="#b4efbd"/>
+<text x="298" y="41" text-anchor="middle" class="lbl" font-size="10">kaushal@edge: ~</text>
+
+<text x="40" y="86" class="p" font-size="16">$</text>
+<clipPath id="t1"><rect x="58" y="66" width="0" height="26"><animate attributeName="width" from="0" to="80" begin="0.3s" dur="0.6s" fill="freeze" calcMode="discrete" values="0;13;27;40;53;66;80"/></rect></clipPath><text x="58" y="86" class="cmd" font-size="16" clip-path="url(#t1)">whoami</text>
+<text x="40" y="132" class="name" font-size="42" opacity="0">Kaushal Reddy<tspan fill="#b4efbd">.</tspan><animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.4s" fill="freeze"/></text>
+<text x="42" y="162" class="out" font-size="14" opacity="0">AI systems · cybersecurity · edge computing<animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.4s" fill="freeze"/></text>
+
+<text x="40" y="204" class="p" font-size="16" opacity="0">$<animate attributeName="opacity" from="0" to="1" begin="1.9s" dur="0.1s" fill="freeze"/></text>
+<clipPath id="t2"><rect x="58" y="184" width="0" height="26"><animate attributeName="width" from="0" to="139" begin="2.0s" dur="1.0s" fill="freeze" calcMode="discrete" values="0;12;23;35;46;58;70;81;93;104;116;127;139"/></rect></clipPath><text x="58" y="204" class="cmd" font-size="16" clip-path="url(#t2)">./now --loop</text>
+<text x="40" y="232" class="p" font-size="16" opacity="0">▸<animate attributeName="opacity" from="0" to="1" begin="3.3s" dur="0.1s" fill="freeze"/></text>
+<text x="56" y="232" class="out" font-size="16" opacity="0">teaching RAG to say “I don’t know”<animate attributeName="opacity" begin="3.4s" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.2000;1.0000" values="1;0;0"/></text><text x="56" y="232" class="out" font-size="16" opacity="0">catching intrusions from OS behaviour<animate attributeName="opacity" begin="3.4s" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.2000;0.4000;1.0000" values="0;1;0;0"/></text><text x="56" y="232" class="out" font-size="16" opacity="0">letting traffic signals read the queue<animate attributeName="opacity" begin="3.4s" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.4000;0.6000;1.0000" values="0;1;0;0"/></text><text x="56" y="232" class="out" font-size="16" opacity="0">rebuilding CT scans from less radiation<animate attributeName="opacity" begin="3.4s" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.6000;0.8000;1.0000" values="0;1;0;0"/></text><text x="56" y="232" class="out" font-size="16" opacity="0">shipping PRs to lichess, one fix at a time<animate attributeName="opacity" begin="3.4s" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.8000;1.0000" values="0;1;1"/></text>
+<rect x="40" y="252" width="10" height="18" fill="#b4efbd"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/></rect>
+
+<text x="40" y="300" class="tag" font-size="15" fill="#b4efbd">Intelligent by design.<tspan fill="#edf7ee"> Reliable in the real world.</tspan></text>
+
+<text x="600" y="66" class="lbl" font-size="10">BEHAVIOUR SIGNAL / LIVE</text>
+<path d="M600 192H880" stroke="#294133" stroke-dasharray="3 5"/>
+<path d="M612 196 L628 190 L640 199 L654 186 L668 197 L682 189 L696 198 L710 188 L724 195 L738 187 L752 196 L764 176 L772 104 L780 210 L790 184 L804 194 L818 186 L832 197 L846 189 L860 195 L872 190" fill="none" stroke="#b4efbd" stroke-width="2" stroke-linejoin="round" clip-path="url(#trace)"/>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.6s" dur="0.3s" fill="freeze"/>
+<circle cx="772" cy="104" r="7" fill="none" stroke="#ff7a6b" stroke-width="2"><animate attributeName="r" values="7;15;7" dur="1.8s" begin="2.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0.2;1" dur="1.8s" begin="2.6s" repeatCount="indefinite"/></circle>
+<circle cx="772" cy="104" r="3.5" fill="#ff7a6b"/>
+<path d="M782 98 L806 84 H868" fill="none" stroke="#ff7a6b" stroke-width="1"/>
+<text x="810" y="78" class="lbl" font-size="10" fill="#ff7a6b" style="fill:#ff7a6b">FLAGGED</text></g>
+<text x="600" y="262" class="lbl" font-size="10">MODELS THAT KNOW</text>
+<text x="600" y="280" class="lbl" font-size="10">WHEN THEY ARE WRONG.</text>
+<text x="842" y="312" class="lbl" font-size="9">KR / 02</text>
+</g></svg>

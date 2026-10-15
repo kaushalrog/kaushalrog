@@ -1,72 +1,81 @@
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img src="assets/banner.svg" width="100%" alt="Kaushal Reddy — AI systems, security and edge. Intelligent by design. Reliable in the real world.">
+  <img src="assets/banner.svg" width="100%" alt="Terminal banner: whoami — Kaushal Reddy, AI systems, cybersecurity and edge computing. It cycles through current work, beside a behaviour signal with one flagged anomaly.">
 </picture>
 
 <p align="center">
-  <a href="https://kaushalrog.github.io/portfolio/">Portfolio ↗</a> &nbsp; / &nbsp;
-  <a href="https://www.linkedin.com/in/kaushal-s-19234b314/">LinkedIn ↗</a> &nbsp; / &nbsp;
-  <a href="https://github.com/kaushalrog?tab=repositories">Explore my code ↗</a>
+  <a href="https://kaushalrog.github.io/portfolio/"><b>Portfolio</b></a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/kaushal-s-19234b314/"><b>LinkedIn</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/kaushalrog?tab=repositories"><b>All repositories</b></a> &nbsp;·&nbsp;
+  <a href="https://ieeexplore.ieee.org/abstract/document/11426098"><b>IEEE paper</b></a>
 </p>
-
-### Building intelligence that holds up outside the demo.
-
-I'm **Kaushal**, working at the intersection of **AI systems, cybersecurity, and edge computing**. I build systems that reason over research, detect behavioral threats, and make decisions under real-world constraints.
-
-My focus: useful models, measurable behavior, and software you can inspect. From uncertainty-aware retrieval to adaptive traffic control, I care about what happens when the inputs stop being predictable.
 
 <br>
 
-## Selected work
+> **The demo always works. I build for the run after the demo.**
+>
+> I'm Kaushal. I work where **AI, security and edge hardware** meet. That means models that admit when they're unsure, intrusion detection that watches how a system behaves instead of what it's sent, and code small enough to run on a Raspberry Pi.
+
+<br>
+
+## Four questions I'm chasing
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<sub>01 / SECURITY + EDGE</sub>
-<h3><a href="https://github.com/kaushalrog/ids---System">WDS-IDS ↗</a></h3>
-<p>Detecting attacks through operating-system behavior rather than web-request payloads. Built around telemetry, behavioral drift, and edge deployment.</p>
-<p><code>Python</code> <code>Intrusion detection</code> <code>Raspberry Pi</code></p>
+
+<sub><code>RESEARCH</code> &nbsp;SECURITY + EDGE</sub>
+
+### Can you catch an attack without reading the payload?
+
+**[WDS-IDS →](https://github.com/kaushalrog/ids---System)** watches operating-system behaviour and drift rather than web-request contents, and is built to run at the edge.
+
+<sub>SRBH-20 · 5-fold CV · under 12 ms end-to-end on a Raspberry Pi 5</sub>
+
 </td>
 <td width="50%" valign="top">
-<sub>02 / RETRIEVAL + REASONING</sub>
-<h3><a href="https://github.com/kaushalrog/scirag-uq">SciRAG-UQ ↗</a></h3>
-<p>Confidence-calibrated retrieval for scientific literature. Combining multiple evidence signals to decide when to answer and when to abstain.</p>
-<p><code>RAG</code> <code>Uncertainty</code> <code>Scientific AI</code></p>
+
+<sub><code>BUILDING</code> &nbsp;RETRIEVAL + REASONING</sub>
+
+### When should a model say "I don't know"?
+
+**[SciRAG-UQ →](https://github.com/kaushalrog/scirag-uq)** is retrieval for scientific literature that combines several evidence signals to decide when to answer and when to abstain.
+
+<sub>Uncertainty-aware RAG · target venue: BDA 2026</sub>
+
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<sub>03 / AI + URBAN SYSTEMS</sub>
-<h3><a href="https://github.com/kaushalrog/TrafficFlowAI">TrafficFlow AI ↗</a></h3>
-<p>Adaptive traffic-signal decision support, combining machine learning and fuzzy logic with a dashboard for real-time congestion insights.</p>
-<p><code>Machine learning</code> <code>Fuzzy logic</code> <code>Forecasting</code></p>
+
+<sub><code>ACCEPTED</code> &nbsp;AI + URBAN SYSTEMS</sub>
+
+### What if a traffic light could read the queue?
+
+**[TrafficFlow AI →](https://github.com/kaushalrog/TrafficFlowAI)** is adaptive signal control that blends machine learning with fuzzy logic, with a live congestion dashboard.
+
+<sub>Accepted at ICPEEV 2026, Mahindra University</sub>
+
 </td>
 <td width="50%" valign="top">
-<sub>04 / VISION + OPTIMIZATION</sub>
-<h3><a href="https://github.com/kaushalrog/mcdip-admm-ct-reconstruction">Low-dose CT reconstruction ↗</a></h3>
-<p>Unsupervised image reconstruction using ADMM and a Multi-Code Deep Image Prior ensemble. Evaluated on synthetic data with PSNR and SSIM.</p>
-<p><code>Computer vision</code> <code>Deep learning</code> <code>ADMM</code></p>
+
+<sub><code>RESEARCH</code> &nbsp;VISION + OPTIMIZATION</sub>
+
+### How much of a CT scan survives less radiation?
+
+**[MCDIP-ADMM →](https://github.com/kaushalrog/mcdip-admm-ct-reconstruction)** does unsupervised low-dose CT reconstruction with ADMM and a multi-code Deep Image Prior ensemble.
+
+<sub>Synthetic-data evaluation · PSNR and SSIM</sub>
+
 </td>
 </tr>
 </table>
 
-**Research beyond the screen:** [AntBot — hexapod surveillance platform · IEEE Xplore ↗](https://ieeexplore.ieee.org/abstract/document/11426098)
+**Off the screen:** [AntBot](https://ieeexplore.ieee.org/abstract/document/11426098), a hexapod surveillance robot, published on IEEE Xplore.
 
 <br>
 
-## Tools I build with
-
-| Area | Toolkit |
-| :--- | :--- |
-| **Languages** | Python · C++ · Java · SQL · Bash |
-| **AI & machine learning** | PyTorch · TensorFlow · scikit-learn · LightGBM |
-| **LLM systems** | RAG · Transformers · Agentic AI · MCP · FAISS · ChromaDB |
-| **Systems & delivery** | Linux · Docker · FastAPI · REST APIs · GitHub Actions |
-| **Security & edge** | Behavioral analysis · Intrusion detection · Raspberry Pi · Arduino |
-
-<br>
-
-## In the build loop
+## Live from the build loop
 
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg">
@@ -78,7 +87,7 @@ My focus: useful models, measurable behavior, and software you can inspect. From
   <img src="assets/languages.svg" width="100%" alt="Language distribution by code bytes across my public, non-fork, non-archived repositories. Top six shown; this measures code volume, not proficiency.">
 </picture>
 
-### Recent public activity
+#### Latest public activity
 
 <!--START:ACTIVITY-->
 | Date (UTC) | Activity | Repository |
@@ -91,7 +100,7 @@ My focus: useful models, measurable behavior, and software you can inspect. From
 <!--END:ACTIVITY-->
 
 <details>
-<summary><b>Project activity · last 30 days</b></summary>
+<summary><b>Project pulse · last 30 days</b></summary>
 
 <!--START:PROJECT_PULSE-->
 | Project | Your commits · last 30 days | Latest push (UTC) |
@@ -108,10 +117,27 @@ My focus: useful models, measurable behavior, and software you can inspect. From
 
 <br>
 
----
+## Toolbox
 
-Outside the build loop: campus photography with Team Media at Amrita, badminton, and research papers that turn into experiments.
+```text
+languages   Python · C++ · Java · SQL · Bash
+ml          PyTorch · TensorFlow · scikit-learn · LightGBM
+llm         RAG · Transformers · agentic AI · MCP
+retrieval   FAISS · ChromaDB
+systems     Linux · Docker · FastAPI · REST APIs
+ci/cd       GitHub Actions
+security    behavioural analysis · intrusion detection
+hardware    Raspberry Pi · Arduino
+```
 
-**Working on thoughtful AI or security tools?** [Let's connect ↗](https://www.linkedin.com/in/kaushal-s-19234b314/)
+<br>
 
-<sub>Updated by <a href="https://github.com/kaushalrog/kaushalrog/actions/workflows/telemetry.yml">GitHub Actions</a> · hourly, on profile-repo pushes, or on demand · latest successful snapshot: 2026-10-15T18:17:46Z · public data only.</sub>
+## Away from the keyboard
+
+📷 Shooting campus events with Team Media at Amrita &nbsp;·&nbsp; 🏸 Badminton &nbsp;·&nbsp; 📄 Reading papers until one turns into an experiment
+
+**Building something thoughtful in AI or security?** [Say hi on LinkedIn →](https://www.linkedin.com/in/kaushal-s-19234b314/)
+
+<br>
+
+<sub>This page updates itself. <a href="https://github.com/kaushalrog/kaushalrog/actions/workflows/telemetry.yml">GitHub Actions</a> refreshes it hourly, on profile-repo pushes, or on demand · latest snapshot: 2026-10-15T18:17:46Z · public data only.</sub>
