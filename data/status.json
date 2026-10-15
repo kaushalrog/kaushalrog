@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T19:34:07Z",
+  "generated_at": "2026-10-15T19:40:42Z",
   "user": "kaushalrog",
   "profile": {
     "followers": 34,
@@ -147,32 +147,32 @@
   "languages": [
     {
       "name": "Jupyter Notebook",
-      "pct": 28.5,
+      "pct": 28.4,
       "bytes": 1234648
     },
     {
       "name": "Python",
-      "pct": 23.9,
-      "bytes": 1034108
+      "pct": 24.2,
+      "bytes": 1050159
     },
     {
       "name": "TypeScript",
-      "pct": 23.4,
+      "pct": 23.3,
       "bytes": 1010422
     },
     {
       "name": "HTML",
-      "pct": 16.9,
+      "pct": 16.8,
       "bytes": 731024
     },
     {
       "name": "Scala",
-      "pct": 4.0,
+      "pct": 3.9,
       "bytes": 171368
     },
     {
       "name": "CSS",
-      "pct": 1.2,
+      "pct": 1.1,
       "bytes": 49842
     }
   ]
