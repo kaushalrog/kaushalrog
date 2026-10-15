@@ -5,6 +5,14 @@ bio, links, project cards, and skills. Edit `kaushal_api/config.py` for tracked
 project repositories. The generator owns `README.md`, `assets/stats*.svg`,
 `assets/languages*.svg`, and `data/status.json`.
 
+## Blueprint artwork
+
+The banner, project spec sheets and bill of materials are drawn by
+`design/make_assets.py` (`python3 design/make_assets.py`). Edit the `CARDS` and
+`BOM` lists there, rerun it, and commit the SVGs in `assets/`. The colours live
+in `kaushal_api/theme.py`, which the generated stats and language cards share,
+so every sheet keeps the same blueprint (dark) and whiteprint (light) look.
+
 ## Automatic updates
 
 `.github/workflows/telemetry.yml` runs at minute 17 of each hour, on changes to

@@ -2,6 +2,7 @@
 from __future__ import annotations
 from html import escape
 from .config import BLOCKS
+from . import theme
 
 
 def cell(value: object) -> str:
@@ -39,37 +40,47 @@ def render_readme(template: str, snap: dict) -> str:
     return out.replace('{{GENERATED_AT}}', snap['generated_at'])
 
 
-def svg_shell(body: str, height: int, title: str, light: bool = False) -> str:
-    bg, fg, muted, border, accent = ('#f6f8fa', '#172b26', '#4c625b', '#cbd8d1', '#087957') if light else ('#111b18', '#edf7f1', '#9db7aa', '#2b4036', '#a6efc4')
+def svg_shell(body: str, height: int, title: str, light: bool = False, sheet: str = '') -> str:
+    """Blueprint drawing sheet: grid paper, double border, corner ticks and a sheet label."""
+    c = theme.palette(light)
+    label = f'<text x="868" y="{height - 22}" text-anchor="end" font-size="9" class="m k">{escape(sheet)}</text>' if sheet else ''
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="{height}" viewBox="0 0 900 {height}" role="img" aria-labelledby="title">
 <title id="title">{escape(title)}</title>
-<style>text{{font-family:system-ui,-apple-system,Segoe UI,sans-serif;fill:{fg}}}.muted{{fill:{muted}}}.accent{{fill:{accent}}}.mono{{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}}</style>
-<rect x="1" y="1" width="898" height="{height-2}" rx="18" fill="{bg}" stroke="{border}"/>{body}</svg>'''
+{theme.style(light)}{theme.grid(900, height, light, inset=10)}{theme.frame(900, height, light)}{body}{label}</svg>'''
 
 
 def dashboard(snap: dict, light: bool = False) -> str:
+    c = theme.palette(light)
     stats = [(snap['totals']['own_repos'], 'PUBLIC REPOSITORIES'), (snap['totals']['stars'], 'STARS · OWN REPOS'), (snap['profile']['followers'], 'FOLLOWERS')]
-    body = '<text x="32" y="38" class="mono muted" font-size="12" letter-spacing="2">GITHUB / AT A GLANCE</text><circle cx="860" cy="33" r="4" class="accent"/>'
+    body = '<text x="34" y="44" font-size="11" class="k m">DETAIL A · GITHUB TELEMETRY</text>'
     for i, (value, label) in enumerate(stats):
-        x = 32 + i * 298
-        body += f'<text x="{x}" y="108" font-size="48" font-weight="650">{value}</text><text x="{x}" y="139" font-size="11" letter-spacing="1.5" class="mono muted">{label}</text>'
+        x = 34 + i * 284
+        body += (f'<rect x="{x}" y="60" width="264" height="96" fill="{c["cell"]}" stroke="{c["line"]}" stroke-width="1"/>'
+                 f'<text x="{x + 16}" y="122" font-size="44" font-weight="700">{value}</text>'
+                 f'<text x="{x + 16}" y="144" font-size="10" class="k m">{label}</text>'
+                 f'<text x="{x + 248}" y="78" text-anchor="end" font-size="9" class="n">0{i + 1}</text>')
     date = escape(snap['generated_at'].replace('T', ' ').replace('Z', ' UTC'))
-    body += f'<text x="32" y="181" font-size="11" class="mono muted">PUBLIC DATA · UPDATED {date}</text>'
-    return svg_shell(body, 204, 'Public GitHub profile metrics', light)
+    body += (f'<path d="M34 172H832" stroke="{c["line"]}" stroke-width="0.8"/>'
+             f'<path d="M34 168V176M832 168V176" stroke="{c["line"]}"/>'
+             f'<text x="34" y="190" font-size="10" class="m">MEASURED {date} · PUBLIC DATA ONLY</text>')
+    return svg_shell(body, 214, 'Public GitHub profile metrics', light, 'SHEET 3 / AUTO-GENERATED')
 
 
 def language_card(snap: dict, light: bool = False) -> str:
-    colors = ['#62c69a', '#83b7e8', '#b8a2e8', '#e9bd7c', '#e599a4', '#a4bf95']
-    body = '<text x="32" y="37" class="mono muted" font-size="12" letter-spacing="2">LANGUAGES / ACROSS PUBLIC REPOSITORIES</text>'
-    x = 32.0
+    c = theme.palette(light)
+    colors = theme.BAR_COLORS[bool(light)]
+    body = '<text x="34" y="44" font-size="11" class="k m">DETAIL B · LANGUAGE MIX BY CODE BYTES</text>'
+    x = 34.0
     langs = snap['languages']
+    body += f'<rect x="34" y="60" width="798" height="16" fill="none" stroke="{c["line"]}" stroke-width="1"/>'
     for i, lang in enumerate(langs):
-        width = 836 * lang['pct'] / 100
-        body += f'<rect x="{x:.2f}" y="58" width="{width:.2f}" height="10" fill="{colors[i % 6]}"/>'
+        width = 798 * lang['pct'] / 100
+        body += f'<rect x="{x:.2f}" y="61" width="{width:.2f}" height="14" fill="{colors[i % 6]}"/>'
         x += width
-        lx, ly = 32 + (i % 3) * 284, 100 + (i // 3) * 30
-        body += f'<circle cx="{lx+4}" cy="{ly-4}" r="4" fill="{colors[i % 6]}"/><text x="{lx+18}" y="{ly}" font-size="12">{escape(lang["name"])} <tspan class="muted">{lang["pct"]:.1f}%</tspan></text>'
+        lx, ly = 34 + (i % 3) * 266, 108 + (i // 3) * 30
+        body += (f'<rect x="{lx}" y="{ly - 10}" width="10" height="10" fill="{colors[i % 6]}" stroke="{c["line"]}" stroke-width="0.6"/>'
+                 f'<text x="{lx + 18}" y="{ly}" font-size="12">{escape(lang["name"])} <tspan class="m">{lang["pct"]:.1f}%</tspan></text>')
     if not langs:
-        body += '<text x="32" y="100" font-size="13" class="muted">No public language data available.</text>'
-    body += '<text x="32" y="164" font-size="10" class="mono muted">SHARE OF CODE BYTES · EXCLUDES FORKS + ARCHIVED REPOS · TOP SIX SHOWN</text>'
-    return svg_shell(body, 186, 'Language distribution by code bytes, not proficiency', light)
+        body += '<text x="34" y="108" font-size="12" class="m">No public language data available.</text>'
+    body += '<text x="34" y="172" font-size="9" class="k m">EXCLUDES FORKS + ARCHIVED REPOS · TOP SIX SHOWN · VOLUME, NOT PROFICIENCY</text>'
+    return svg_shell(body, 196, 'Language distribution by code bytes, not proficiency', light, 'SHEET 4 / AUTO-GENERATED')
