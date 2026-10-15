@@ -83,11 +83,11 @@ My focus: useful models, measurable behavior, and software you can inspect. From
 <!--START:ACTIVITY-->
 | Date (UTC) | Activity | Repository |
 | :--- | :--- | :--- |
-| 2026-10-14 | Push · Pushed code | [kaushalrog/lila](https://github.com/kaushalrog/lila) |
-| 2026-10-14 | Pr · merged #2 | [kaushalrog/lila](https://github.com/kaushalrog/lila) |
-| 2026-10-14 | Push · Pushed code | [kaushalrog/lila](https://github.com/kaushalrog/lila) |
-| 2026-10-14 | Pr · merged #1 | [kaushalrog/lila](https://github.com/kaushalrog/lila) |
-| 2026-10-14 | Pr · opened #3 | [kaushalrog/lila](https://github.com/kaushalrog/lila) |
+| 2026-10-15 | Pr · opened #22096 | [lichess-org/lila](https://github.com/lichess-org/lila) |
+| 2026-10-15 | Pr · opened #22095 | [lichess-org/lila](https://github.com/lichess-org/lila) |
+| 2026-10-15 | Pr · closed #22094 | [lichess-org/lila](https://github.com/lichess-org/lila) |
+| 2026-10-15 | Pr · opened #22094 | [lichess-org/lila](https://github.com/lichess-org/lila) |
+| 2026-10-15 | Pr · merged #3 | [kaushalrog/lila](https://github.com/kaushalrog/lila) |
 <!--END:ACTIVITY-->
 
 <details>
@@ -114,4 +114,4 @@ Outside the build loop: campus photography with Team Media at Amrita, badminton,
 
 **Working on thoughtful AI or security tools?** [Let's connect ↗](https://www.linkedin.com/in/kaushal-s-19234b314/)
 
-<sub>Updated by <a href="https://github.com/kaushalrog/kaushalrog/actions/workflows/telemetry.yml">GitHub Actions</a> · hourly, on profile-repo pushes, or on demand · latest successful snapshot: 2026-10-15T07:25:48Z · public data only.</sub>
+<sub>Updated by <a href="https://github.com/kaushalrog/kaushalrog/actions/workflows/telemetry.yml">GitHub Actions</a> · hourly, on profile-repo pushes, or on demand · latest successful snapshot: 2026-10-15T13:25:26Z · public data only.</sub>

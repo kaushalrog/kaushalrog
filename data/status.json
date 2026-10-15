@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T07:25:48Z",
+  "generated_at": "2026-10-15T13:25:26Z",
   "user": "kaushalrog",
   "profile": {
     "followers": 34,
@@ -13,12 +13,12 @@
     "streak_days": null
   },
   "latest": {
-    "label": "PUSH",
-    "repo": "kaushalrog/lila",
-    "url": "https://github.com/kaushalrog/lila",
-    "detail": "Pushed code",
-    "at": "2026-10-14T19:21:46Z",
-    "ago": "12 hours ago"
+    "label": "PR",
+    "repo": "lichess-org/lila",
+    "url": "https://github.com/lichess-org/lila",
+    "detail": "opened #22096",
+    "at": "2026-10-15T09:26:17Z",
+    "ago": "3 hours ago"
   },
   "projects": [
     {
@@ -72,7 +72,7 @@
       "exists": true,
       "stars": 3,
       "pushed_at": "2026-10-14T16:16:24Z",
-      "last_push": "15 hours ago",
+      "last_push": "21 hours ago",
       "commits_30d": 1,
       "ci": null,
       "ci_run_url": null
@@ -80,12 +80,52 @@
   ],
   "feed": [
     {
+      "label": "PR",
+      "repo": "lichess-org/lila",
+      "url": "https://github.com/lichess-org/lila",
+      "detail": "opened #22096",
+      "at": "2026-10-15T09:26:17Z",
+      "ago": "3 hours ago"
+    },
+    {
+      "label": "PR",
+      "repo": "lichess-org/lila",
+      "url": "https://github.com/lichess-org/lila",
+      "detail": "opened #22095",
+      "at": "2026-10-15T09:20:40Z",
+      "ago": "4 hours ago"
+    },
+    {
+      "label": "PR",
+      "repo": "lichess-org/lila",
+      "url": "https://github.com/lichess-org/lila",
+      "detail": "closed #22094",
+      "at": "2026-10-15T08:28:30Z",
+      "ago": "4 hours ago"
+    },
+    {
+      "label": "PR",
+      "repo": "lichess-org/lila",
+      "url": "https://github.com/lichess-org/lila",
+      "detail": "opened #22094",
+      "at": "2026-10-15T08:28:30Z",
+      "ago": "4 hours ago"
+    },
+    {
+      "label": "PR",
+      "repo": "kaushalrog/lila",
+      "url": "https://github.com/kaushalrog/lila",
+      "detail": "merged #3",
+      "at": "2026-10-15T08:23:45Z",
+      "ago": "5 hours ago"
+    },
+    {
       "label": "PUSH",
       "repo": "kaushalrog/lila",
       "url": "https://github.com/kaushalrog/lila",
       "detail": "Pushed code",
       "at": "2026-10-14T19:21:46Z",
-      "ago": "12 hours ago"
+      "ago": "18 hours ago"
     },
     {
       "label": "PR",
@@ -93,7 +133,7 @@
       "url": "https://github.com/kaushalrog/lila",
       "detail": "merged #2",
       "at": "2026-10-14T19:21:45Z",
-      "ago": "12 hours ago"
+      "ago": "18 hours ago"
     },
     {
       "label": "PUSH",
@@ -101,47 +141,7 @@
       "url": "https://github.com/kaushalrog/lila",
       "detail": "Pushed code",
       "at": "2026-10-14T19:21:28Z",
-      "ago": "12 hours ago"
-    },
-    {
-      "label": "PR",
-      "repo": "kaushalrog/lila",
-      "url": "https://github.com/kaushalrog/lila",
-      "detail": "merged #1",
-      "at": "2026-10-14T19:21:27Z",
-      "ago": "12 hours ago"
-    },
-    {
-      "label": "PR",
-      "repo": "kaushalrog/lila",
-      "url": "https://github.com/kaushalrog/lila",
-      "detail": "opened #3",
-      "at": "2026-10-14T19:21:02Z",
-      "ago": "12 hours ago"
-    },
-    {
-      "label": "PR",
-      "repo": "kaushalrog/lila",
-      "url": "https://github.com/kaushalrog/lila",
-      "detail": "opened #2",
-      "at": "2026-10-14T19:15:48Z",
-      "ago": "12 hours ago"
-    },
-    {
-      "label": "PR",
-      "repo": "kaushalrog/lila",
-      "url": "https://github.com/kaushalrog/lila",
-      "detail": "opened #1",
-      "at": "2026-10-14T19:10:49Z",
-      "ago": "12 hours ago"
-    },
-    {
-      "label": "CREATE",
-      "repo": "kaushalrog/lila",
-      "url": "https://github.com/kaushalrog/lila",
-      "detail": "branch fix/cleanup-debug-logging",
-      "at": "2026-10-14T19:10:29Z",
-      "ago": "12 hours ago"
+      "ago": "18 hours ago"
     }
   ],
   "languages": [
