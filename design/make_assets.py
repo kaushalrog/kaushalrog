@@ -150,6 +150,68 @@ def card(d, light):
                b, light)
 
 
+FEATURED = dict(
+    no='KR-100', part='SATELLITE OPTICAL FAULT RECOVERY', status='LATEST · LIVE SITE',
+    q='WHEN A LASER LINK BETWEEN SATELLITES FAILS, WHAT BROKE, AND CAN IT BE FIXED?',
+    stack='MATLAB R2026a · Simulink · 4–10 satellites · 320 matched trials',
+    # (label, before, after, unit, higher_is_better)
+    bars=[('DETECTION ACCURACY', 72.1, 96.5, '%', True), ('EXACT FAULT ISOLATION', 9.5, 71.5, '%', True),
+          ('FALSE-ALARM RATE', 33.4, 3.0, '%', False)],
+    footer='V1 → V2 SUPERVISOR · 4-SATELLITE NETWORK · REPRODUCED 320 / 320 TRIALS EXACTLY',
+)
+
+
+def featured(light):
+    c = theme.palette(light)
+    L, d = c['line'], FEATURED
+    w, h = 900, 320
+    b = (f'<text x="34" y="44" font-size="10" class="k m">DWG {d["no"]} · FEATURED PROJECT</text>'
+         f'<rect x="{w - 34 - len(d["status"]) * 7.4 - 16}" y="30" width="{len(d["status"]) * 7.4 + 16}" height="20" fill="{c["note"]}"/>'
+         f'<text x="{w - 42}" y="44" text-anchor="end" font-size="10" font-weight="700" class="k" style="fill:{c["paper"]}">{d["status"]}</text>'
+         f'<text x="34" y="82" font-size="26" font-weight="700">{d["part"]}</text>'
+         f'<text x="34" y="106" font-size="11.5" class="a">{escape(d["q"])}</text>'
+         f'<text x="34" y="126" font-size="10" class="m">{escape(d["stack"])}</text>')
+    # before/after bars
+    x0, bw, y = 34, 300, 160
+    b += (f'<text x="{x0}" y="{y - 8}" font-size="8" class="k m">METRIC</text>'
+          f'<rect x="{x0 + 176}" y="{y - 15}" width="14" height="6" fill="{c["muted"]}" opacity="0.6"/>'
+          f'<text x="{x0 + 196}" y="{y - 8}" font-size="8" class="k m">V1 ORIGINAL</text>'
+          f'<rect x="{x0 + 300}" y="{y - 15}" width="14" height="6" fill="{c["note"]}"/>'
+          f'<text x="{x0 + 320}" y="{y - 8}" font-size="8" class="k m">V2 REVISED</text>')
+    for i, (lab, a, z, u, hi) in enumerate(d['bars']):
+        yy = y + i * 34
+        b += (f'<text x="{x0}" y="{yy + 10}" font-size="9" class="k">{lab}</text>'
+              f'<rect x="{x0 + 176}" y="{yy}" width="{bw}" height="6" fill="none" stroke="{L}" stroke-width="0.6"/>'
+              f'<rect x="{x0 + 176}" y="{yy}" width="{bw * a / 100:.1f}" height="6" fill="{c["muted"]}" opacity="0.6"/>'
+              f'<rect x="{x0 + 176}" y="{yy + 8}" width="{bw * z / 100:.1f}" height="6" fill="{c["note"]}"/>'
+              f'<text x="{x0 + 176}" y="{yy + 27}" font-size="10" class="m">{a}{u}</text>'
+              f'<text x="{x0 + 176 + bw}" y="{yy + 27}" font-size="11" font-weight="700" text-anchor="end" class="n">{z}{u} {"↑" if hi else "↓"}</text>')
+    # constellation: ring of four satellites, edge 1 faulted
+    cx, cy, r = 700, 178, 74
+    pts = [(cx, cy - r), (cx + r, cy), (cx, cy + r), (cx - r, cy)]
+    b += f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{L}" stroke-width="0.6" stroke-dasharray="2 4"/>'
+    b += f'<circle cx="{cx}" cy="{cy}" r="16" fill="none" stroke="{L}" stroke-width="0.8"/><text x="{cx}" y="{cy + 3}" text-anchor="middle" font-size="7" class="m">EARTH</text>'
+    for i in range(4):
+        (x1, y1), (x2, y2) = pts[i], pts[(i + 1) % 4]
+        if i == 0:
+            b += f'<path d="M{x1} {y1}L{x2} {y2}" stroke="{c["note"]}" stroke-width="1.6" stroke-dasharray="5 4"/>'
+        else:
+            b += f'<path d="M{x1} {y1}L{x2} {y2}" stroke="{L}" stroke-width="1.2"/>'
+    for i, (x, yy) in enumerate(pts):
+        b += (f'<rect x="{x - 7}" y="{yy - 7}" width="14" height="14" fill="{c["cell"]}" stroke="{L}" stroke-width="1.2"/>'
+              f'<path d="M{x - 18} {yy}H{x - 8}M{x + 8} {yy}H{x + 18}" stroke="{c["accent"]}" stroke-width="3"/>')
+    b += (f'<path d="M{cx + 40} {cy - 40}L{cx + 92} {cy - 86}H{cx + 150}" stroke="{c["note"]}" stroke-width="0.8" fill="none"/>'
+          f'<text x="{cx + 94}" y="{cy - 92}" font-size="9" class="n">EDGE 1 · FAULT</text>'
+          f'<text x="{cx + 94}" y="{cy - 74}" font-size="9" class="n">DIAGNOSE → FIX</text>'
+          f'<text x="{cx + 94}" y="{cy - 62}" font-size="9" class="n">→ VERIFY</text>')
+    b += (f'<path d="M34 {h - 42}H{w - 34}" stroke="{L}" stroke-width="0.6" opacity="0.7"/>'
+          f'<text x="34" y="{h - 24}" font-size="9" class="k m">{escape(d["footer"])}</text>')
+    return svg(w, h, 'Featured: Satellite Optical Fault Recovery',
+               'Featured project KR-100. Active fault diagnosis and verified recovery for satellite laser links, '
+               'MATLAB and Simulink, 320 matched trials. Detection accuracy 72.1% to 96.5%, exact fault isolation 9.5% to 71.5%, '
+               'false-alarm rate 33.4% to 3.0%. Reproduced 320 of 320 trials exactly.', b, light)
+
+
 BOM = [
     ('01', 'LANGUAGES', 'Python · C++ · Java · SQL · Bash'),
     ('02', 'MACHINE LEARNING', 'PyTorch · TensorFlow · scikit-learn · LightGBM'),
@@ -192,6 +254,7 @@ def main():
         sfx = '-light' if light else ''
         files[f'banner{sfx}.svg'] = banner(light)
         files[f'bom{sfx}.svg'] = bom(light)
+        files[f'featured{sfx}.svg'] = featured(light)
         for d in CARDS:
             files[f'card-{d["slug"]}{sfx}.svg'] = card(d, light)
     for name, content in files.items():

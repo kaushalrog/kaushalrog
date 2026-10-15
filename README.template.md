@@ -13,7 +13,11 @@
 > **The demo always works. I build for the run after the demo.**
 > I'm Kaushal. I work where AI, security and edge hardware meet: models that admit when they're unsure, intrusion detection that watches how a system behaves instead of what it's sent, and code small enough to run on a Raspberry Pi.
 
-## `SHEET 2` &nbsp;Four open questions
+## `SHEET 2` &nbsp;Open questions
+
+<a href="https://kaushalrog.github.io/Satellite-Optical-Fault-Recovery/"><picture><source media="(prefers-color-scheme: light)" srcset="assets/featured-light.svg"><img src="assets/featured.svg" width="100%" alt="Featured project KR-100, Satellite Optical Fault Recovery: when a laser link between satellites fails, what broke, and can it be fixed? MATLAB and Simulink, 4 to 10 satellites, 320 matched trials. Detection accuracy 72.1% to 96.5%, exact fault isolation 9.5% to 71.5%, false-alarm rate 33.4% to 3.0%. Reproduced 320 of 320 trials exactly."></picture></a>
+
+<p align="center"><b>Latest:</b> <a href="https://kaushalrog.github.io/Satellite-Optical-Fault-Recovery/">Results website</a> &nbsp;·&nbsp; <a href="https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery">Repository</a></p>
 
 <table>
 <tr>
