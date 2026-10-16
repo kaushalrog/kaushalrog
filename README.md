@@ -17,7 +17,7 @@
 
 <a href="https://kaushalrog.github.io/Satellite-Optical-Fault-Recovery/"><picture><source media="(prefers-color-scheme: light)" srcset="assets/featured-light.svg"><img src="assets/featured.svg" width="100%" alt="Featured project KR-100, Satellite Optical Fault Recovery: when a laser link between satellites fails, what broke, and can it be fixed? MATLAB and Simulink, 4 to 10 satellites, 320 matched trials. Detection accuracy 72.1% to 96.5%, exact fault isolation 9.5% to 71.5%, false-alarm rate 33.4% to 3.0%. Reproduced 320 of 320 trials exactly."></picture></a>
 
-<p align="center"><b>Latest:</b> <a href="https://kaushalrog.github.io/Satellite-Optical-Fault-Recovery/">Results website</a> &nbsp;·&nbsp; <a href="https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery">Repository</a></p>
+<p align="center"><b>Latest:</b> <a href="https://kaushalrog.github.io/Satellite-Optical-Fault-Recovery/">▶ Live simulator</a> &nbsp;·&nbsp; <a href="https://kaushalrog.github.io/Satellite-Optical-Fault-Recovery/results.html">MATLAB results</a> &nbsp;·&nbsp; <a href="https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery">Repository</a><br><sub>Also live: <a href="https://kaushalrog.github.io/Spacecraft-Formation-Attitude-Control/">Spacecraft formation attitude-control digital twin</a></sub></p>
 
 <table>
 <tr>
