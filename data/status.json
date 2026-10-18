@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T09:37:12Z",
+  "generated_at": "2026-10-18T14:01:18Z",
   "user": "kaushalrog",
   "profile": {
     "followers": 34,
@@ -14,11 +14,11 @@
   },
   "latest": {
     "label": "PUSH",
-    "repo": "kaushalrog/Quantum-Circuit-Optimization-Advisor",
-    "url": "https://github.com/kaushalrog/Quantum-Circuit-Optimization-Advisor",
+    "repo": "kaushalrog/Spacecraft-Formation-Attitude-Control",
+    "url": "https://github.com/kaushalrog/Spacecraft-Formation-Attitude-Control",
     "detail": "Pushed code",
-    "at": "2026-10-17T03:38:50Z",
-    "ago": "1 day ago"
+    "at": "2026-10-17T18:13:43Z",
+    "ago": "19 hours ago"
   },
   "projects": [
     {
@@ -81,6 +81,14 @@
   "feed": [
     {
       "label": "PUSH",
+      "repo": "kaushalrog/Spacecraft-Formation-Attitude-Control",
+      "url": "https://github.com/kaushalrog/Spacecraft-Formation-Attitude-Control",
+      "detail": "Pushed code",
+      "at": "2026-10-17T18:13:43Z",
+      "ago": "19 hours ago"
+    },
+    {
+      "label": "PUSH",
       "repo": "kaushalrog/Quantum-Circuit-Optimization-Advisor",
       "url": "https://github.com/kaushalrog/Quantum-Circuit-Optimization-Advisor",
       "detail": "Pushed code",
@@ -133,14 +141,6 @@
       "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery",
       "detail": "Pushed code",
       "at": "2026-10-16T03:10:53Z",
-      "ago": "2 days ago"
-    },
-    {
-      "label": "PUSH",
-      "repo": "kaushalrog/Spacecraft-Formation-Attitude-Control",
-      "url": "https://github.com/kaushalrog/Spacecraft-Formation-Attitude-Control",
-      "detail": "Pushed code",
-      "at": "2026-10-16T03:06:12Z",
       "ago": "2 days ago"
     }
   ],
