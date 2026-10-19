@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T06:16:32Z",
+  "generated_at": "2026-10-19T13:29:09Z",
   "user": "kaushalrog",
   "profile": {
     "followers": 34,
@@ -14,11 +14,11 @@
   },
   "latest": {
     "label": "PUSH",
-    "repo": "kaushalrog/Spacecraft-Formation-Attitude-Control",
-    "url": "https://github.com/kaushalrog/Spacecraft-Formation-Attitude-Control",
+    "repo": "kaushalrog/AG-DATA",
+    "url": "https://github.com/kaushalrog/AG-DATA",
     "detail": "Pushed code",
-    "at": "2026-10-17T18:13:43Z",
-    "ago": "1 day ago"
+    "at": "2026-10-19T12:04:01Z",
+    "ago": "1 hour ago"
   },
   "projects": [
     {
@@ -81,6 +81,22 @@
   "feed": [
     {
       "label": "PUSH",
+      "repo": "kaushalrog/AG-DATA",
+      "url": "https://github.com/kaushalrog/AG-DATA",
+      "detail": "Pushed code",
+      "at": "2026-10-19T12:04:01Z",
+      "ago": "1 hour ago"
+    },
+    {
+      "label": "PR",
+      "repo": "lichess-org/lila",
+      "url": "https://github.com/lichess-org/lila",
+      "detail": "merged #22096",
+      "at": "2026-10-19T08:20:34Z",
+      "ago": "5 hours ago"
+    },
+    {
+      "label": "PUSH",
       "repo": "kaushalrog/Spacecraft-Formation-Attitude-Control",
       "url": "https://github.com/kaushalrog/Spacecraft-Formation-Attitude-Control",
       "detail": "Pushed code",
@@ -117,7 +133,7 @@
       "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery",
       "detail": "Pushed code",
       "at": "2026-10-16T07:41:26Z",
-      "ago": "2 days ago"
+      "ago": "3 days ago"
     },
     {
       "label": "PUSH",
@@ -125,50 +141,34 @@
       "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery",
       "detail": "Pushed code",
       "at": "2026-10-16T07:37:42Z",
-      "ago": "2 days ago"
-    },
-    {
-      "label": "PUSH",
-      "repo": "kaushalrog/Satellite-Optical-Fault-Recovery",
-      "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery",
-      "detail": "Pushed code",
-      "at": "2026-10-16T07:35:09Z",
-      "ago": "2 days ago"
-    },
-    {
-      "label": "PUSH",
-      "repo": "kaushalrog/Spacecraft-Formation-Attitude-Control",
-      "url": "https://github.com/kaushalrog/Spacecraft-Formation-Attitude-Control",
-      "detail": "Pushed code",
-      "at": "2026-10-16T03:10:55Z",
       "ago": "3 days ago"
     }
   ],
   "languages": [
     {
       "name": "Jupyter Notebook",
-      "pct": 27.3,
+      "pct": 27.1,
       "bytes": 1234648
     },
     {
       "name": "Python",
-      "pct": 23.4,
-      "bytes": 1060086
+      "pct": 23.5,
+      "bytes": 1069715
     },
     {
       "name": "TypeScript",
-      "pct": 22.3,
+      "pct": 22.2,
       "bytes": 1010422
     },
     {
       "name": "HTML",
-      "pct": 17.0,
+      "pct": 16.9,
       "bytes": 768192
     },
     {
       "name": "Scala",
-      "pct": 3.8,
-      "bytes": 171368
+      "pct": 4.1,
+      "bytes": 188948
     },
     {
       "name": "JavaScript",
