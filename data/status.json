@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-20T04:49:28Z",
+  "generated_at": "2026-10-20T10:04:01Z",
   "user": "kaushalrog",
   "profile": {
-    "followers": 34,
+    "followers": 35,
     "public_repos": 45
   },
   "totals": {
-    "stars": 25,
+    "stars": 24,
     "own_repos": 22,
     "commits_30d": 2,
     "contributions_year": null,
     "streak_days": null
   },
   "latest": {
-    "label": "PUSH",
-    "repo": "kaushalrog/AG-DATA",
-    "url": "https://github.com/kaushalrog/AG-DATA",
-    "detail": "Pushed code",
-    "at": "2026-10-19T12:04:01Z",
-    "ago": "16 hours ago"
+    "label": "PR",
+    "repo": "Rishithachappidi/Active-Fault-Diagnosis-and-Verified-Recovery-for-Multi-Satellite-Optical-Communication",
+    "url": "https://github.com/Rishithachappidi/Active-Fault-Diagnosis-and-Verified-Recovery-for-Multi-Satellite-Optical-Communication",
+    "detail": "opened #2",
+    "at": "2026-10-20T05:40:52Z",
+    "ago": "4 hours ago"
   },
   "projects": [
     {
@@ -56,7 +56,7 @@
       "blurb": "hybrid fuzzy-AI adaptive signal control",
       "evidence": "accepted, ICPEEV 2026, Mahindra University",
       "exists": true,
-      "stars": 3,
+      "stars": 2,
       "pushed_at": "2026-09-23T17:55:46Z",
       "last_push": "26 days ago",
       "commits_30d": 1,
@@ -80,12 +80,28 @@
   ],
   "feed": [
     {
+      "label": "PR",
+      "repo": "Rishithachappidi/Active-Fault-Diagnosis-and-Verified-Recovery-for-Multi-Satellite-Optical-Communication",
+      "url": "https://github.com/Rishithachappidi/Active-Fault-Diagnosis-and-Verified-Recovery-for-Multi-Satellite-Optical-Communication",
+      "detail": "opened #2",
+      "at": "2026-10-20T05:40:52Z",
+      "ago": "4 hours ago"
+    },
+    {
+      "label": "PR",
+      "repo": "Rishithachappidi/Quantum-Circuit-Optimization-Advisor",
+      "url": "https://github.com/Rishithachappidi/Quantum-Circuit-Optimization-Advisor",
+      "detail": "opened #2",
+      "at": "2026-10-20T05:39:54Z",
+      "ago": "4 hours ago"
+    },
+    {
       "label": "PUSH",
       "repo": "kaushalrog/AG-DATA",
       "url": "https://github.com/kaushalrog/AG-DATA",
       "detail": "Pushed code",
       "at": "2026-10-19T12:04:01Z",
-      "ago": "16 hours ago"
+      "ago": "22 hours ago"
     },
     {
       "label": "PR",
@@ -93,7 +109,7 @@
       "url": "https://github.com/lichess-org/lila",
       "detail": "merged #22096",
       "at": "2026-10-19T08:20:34Z",
-      "ago": "20 hours ago"
+      "ago": "1 day ago"
     },
     {
       "label": "PUSH",
@@ -125,22 +141,6 @@
       "url": "https://github.com/kaushalrog/Quantum-Circuit-Optimization-Advisor",
       "detail": "Pushed code",
       "at": "2026-10-16T14:07:04Z",
-      "ago": "3 days ago"
-    },
-    {
-      "label": "PUSH",
-      "repo": "kaushalrog/Satellite-Optical-Fault-Recovery",
-      "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery",
-      "detail": "Pushed code",
-      "at": "2026-10-16T07:41:26Z",
-      "ago": "3 days ago"
-    },
-    {
-      "label": "PUSH",
-      "repo": "kaushalrog/Satellite-Optical-Fault-Recovery",
-      "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery",
-      "detail": "Pushed code",
-      "at": "2026-10-16T07:37:42Z",
       "ago": "3 days ago"
     }
   ],
