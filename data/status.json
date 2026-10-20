@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T10:04:01Z",
+  "generated_at": "2026-10-20T15:05:14Z",
   "user": "kaushalrog",
   "profile": {
     "followers": 35,
@@ -13,12 +13,12 @@
     "streak_days": null
   },
   "latest": {
-    "label": "PR",
-    "repo": "Rishithachappidi/Active-Fault-Diagnosis-and-Verified-Recovery-for-Multi-Satellite-Optical-Communication",
-    "url": "https://github.com/Rishithachappidi/Active-Fault-Diagnosis-and-Verified-Recovery-for-Multi-Satellite-Optical-Communication",
-    "detail": "opened #2",
-    "at": "2026-10-20T05:40:52Z",
-    "ago": "4 hours ago"
+    "label": "STAR",
+    "repo": "666ghj/MiroFish",
+    "url": "https://github.com/666ghj/MiroFish",
+    "detail": "",
+    "at": "2026-10-20T12:33:48Z",
+    "ago": "2 hours ago"
   },
   "projects": [
     {
@@ -80,12 +80,20 @@
   ],
   "feed": [
     {
+      "label": "STAR",
+      "repo": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "detail": "",
+      "at": "2026-10-20T12:33:48Z",
+      "ago": "2 hours ago"
+    },
+    {
       "label": "PR",
       "repo": "Rishithachappidi/Active-Fault-Diagnosis-and-Verified-Recovery-for-Multi-Satellite-Optical-Communication",
       "url": "https://github.com/Rishithachappidi/Active-Fault-Diagnosis-and-Verified-Recovery-for-Multi-Satellite-Optical-Communication",
       "detail": "opened #2",
       "at": "2026-10-20T05:40:52Z",
-      "ago": "4 hours ago"
+      "ago": "9 hours ago"
     },
     {
       "label": "PR",
@@ -93,7 +101,7 @@
       "url": "https://github.com/Rishithachappidi/Quantum-Circuit-Optimization-Advisor",
       "detail": "opened #2",
       "at": "2026-10-20T05:39:54Z",
-      "ago": "4 hours ago"
+      "ago": "9 hours ago"
     },
     {
       "label": "PUSH",
@@ -101,7 +109,7 @@
       "url": "https://github.com/kaushalrog/AG-DATA",
       "detail": "Pushed code",
       "at": "2026-10-19T12:04:01Z",
-      "ago": "22 hours ago"
+      "ago": "1 day ago"
     },
     {
       "label": "PR",
@@ -133,14 +141,6 @@
       "url": "https://github.com/kaushalrog/Quantum-Circuit-Optimization-Advisor",
       "detail": "Pushed code",
       "at": "2026-10-17T03:38:50Z",
-      "ago": "3 days ago"
-    },
-    {
-      "label": "PUSH",
-      "repo": "kaushalrog/Quantum-Circuit-Optimization-Advisor",
-      "url": "https://github.com/kaushalrog/Quantum-Circuit-Optimization-Advisor",
-      "detail": "Pushed code",
-      "at": "2026-10-16T14:07:04Z",
       "ago": "3 days ago"
     }
   ],
