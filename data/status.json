@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T01:35:16Z",
+  "generated_at": "2026-10-21T07:38:41Z",
   "user": "kaushalrog",
   "profile": {
     "followers": 35,
@@ -14,11 +14,11 @@
   },
   "latest": {
     "label": "STAR",
-    "repo": "666ghj/MiroFish",
-    "url": "https://github.com/666ghj/MiroFish",
+    "repo": "harry0703/MoneyPrinterTurbo",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo",
     "detail": "",
-    "at": "2026-10-20T12:33:48Z",
-    "ago": "13 hours ago"
+    "at": "2026-10-21T01:40:50Z",
+    "ago": "5 hours ago"
   },
   "projects": [
     {
@@ -81,11 +81,19 @@
   "feed": [
     {
       "label": "STAR",
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "detail": "",
+      "at": "2026-10-21T01:40:50Z",
+      "ago": "5 hours ago"
+    },
+    {
+      "label": "STAR",
       "repo": "666ghj/MiroFish",
       "url": "https://github.com/666ghj/MiroFish",
       "detail": "",
       "at": "2026-10-20T12:33:48Z",
-      "ago": "13 hours ago"
+      "ago": "19 hours ago"
     },
     {
       "label": "PR",
@@ -93,7 +101,7 @@
       "url": "https://github.com/Rishithachappidi/Active-Fault-Diagnosis-and-Verified-Recovery-for-Multi-Satellite-Optical-Communication",
       "detail": "opened #2",
       "at": "2026-10-20T05:40:52Z",
-      "ago": "19 hours ago"
+      "ago": "1 day ago"
     },
     {
       "label": "PR",
@@ -101,7 +109,7 @@
       "url": "https://github.com/Rishithachappidi/Quantum-Circuit-Optimization-Advisor",
       "detail": "opened #2",
       "at": "2026-10-20T05:39:54Z",
-      "ago": "19 hours ago"
+      "ago": "1 day ago"
     },
     {
       "label": "PUSH",
@@ -133,15 +141,7 @@
       "url": "https://github.com/kaushalrog/Quantum-Circuit-Optimization-Advisor",
       "detail": "Pushed code",
       "at": "2026-10-17T03:39:51Z",
-      "ago": "3 days ago"
-    },
-    {
-      "label": "PUSH",
-      "repo": "kaushalrog/Quantum-Circuit-Optimization-Advisor",
-      "url": "https://github.com/kaushalrog/Quantum-Circuit-Optimization-Advisor",
-      "detail": "Pushed code",
-      "at": "2026-10-17T03:38:50Z",
-      "ago": "3 days ago"
+      "ago": "4 days ago"
     }
   ],
   "languages": [
