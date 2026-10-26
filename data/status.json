@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T01:09:08Z",
+  "generated_at": "2026-10-26T06:12:04Z",
   "user": "kaushalrog",
   "profile": {
     "followers": 37,
@@ -18,7 +18,7 @@
     "url": "https://github.com/kaushalrog/AG-DATA",
     "detail": "Pushed code",
     "at": "2026-10-25T04:15:04Z",
-    "ago": "20 hours ago"
+    "ago": "1 day ago"
   },
   "projects": [
     {
@@ -44,7 +44,7 @@
       "exists": true,
       "stars": 1,
       "pushed_at": "2026-10-25T03:46:54Z",
-      "last_push": "21 hours ago",
+      "last_push": "1 day ago",
       "commits_30d": 1,
       "ci": null,
       "ci_run_url": null
@@ -85,7 +85,15 @@
       "url": "https://github.com/kaushalrog/AG-DATA",
       "detail": "Pushed code",
       "at": "2026-10-25T04:15:04Z",
-      "ago": "20 hours ago"
+      "ago": "1 day ago"
+    },
+    {
+      "label": "PUSH",
+      "repo": "kaushalrog/scirag-uq",
+      "url": "https://github.com/kaushalrog/scirag-uq",
+      "detail": "Pushed code",
+      "at": "2026-10-25T03:46:54Z",
+      "ago": "1 day ago"
     },
     {
       "label": "PUSH",
@@ -117,7 +125,7 @@
       "url": "https://github.com/kestra-io/kestra",
       "detail": "",
       "at": "2026-10-24T05:08:48Z",
-      "ago": "1 day ago"
+      "ago": "2 days ago"
     },
     {
       "label": "PUSH",
@@ -125,7 +133,7 @@
       "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery",
       "detail": "Pushed code",
       "at": "2026-10-24T05:08:38Z",
-      "ago": "1 day ago"
+      "ago": "2 days ago"
     },
     {
       "label": "PUSH",
@@ -133,15 +141,7 @@
       "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery",
       "detail": "Pushed code",
       "at": "2026-10-24T05:08:30Z",
-      "ago": "1 day ago"
-    },
-    {
-      "label": "FORK",
-      "repo": "arc53/DocsGPT",
-      "url": "https://github.com/arc53/DocsGPT",
-      "detail": "",
-      "at": "2026-10-24T05:08:17Z",
-      "ago": "1 day ago"
+      "ago": "2 days ago"
     }
   ],
   "languages": [
