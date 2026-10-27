@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-27T16:37:35Z",
+  "generated_at": "2026-10-27T21:18:30Z",
   "user": "kaushalrog",
   "profile": {
-    "followers": 37,
+    "followers": 38,
     "public_repos": 47
   },
   "totals": {
@@ -18,7 +18,7 @@
     "url": "https://github.com/kaushalrog/AG-DATA",
     "detail": "",
     "at": "2026-10-27T02:07:21Z",
-    "ago": "14 hours ago"
+    "ago": "19 hours ago"
   },
   "projects": [
     {
@@ -44,7 +44,7 @@
       "exists": true,
       "stars": 1,
       "pushed_at": "2026-10-26T17:02:54Z",
-      "last_push": "23 hours ago",
+      "last_push": "1 day ago",
       "commits_30d": 2,
       "ci": null,
       "ci_run_url": null
@@ -85,7 +85,7 @@
       "url": "https://github.com/kaushalrog/AG-DATA",
       "detail": "",
       "at": "2026-10-27T02:07:21Z",
-      "ago": "14 hours ago"
+      "ago": "19 hours ago"
     },
     {
       "label": "PUSH",
@@ -93,7 +93,15 @@
       "url": "https://github.com/kaushalrog/AG-DATA",
       "detail": "Pushed code",
       "at": "2026-10-27T02:07:12Z",
-      "ago": "14 hours ago"
+      "ago": "19 hours ago"
+    },
+    {
+      "label": "PUSH",
+      "repo": "kaushalrog/scirag-uq",
+      "url": "https://github.com/kaushalrog/scirag-uq",
+      "detail": "Pushed code",
+      "at": "2026-10-26T17:02:55Z",
+      "ago": "1 day ago"
     },
     {
       "label": "PUSH",
@@ -133,14 +141,6 @@
       "url": "https://github.com/kaushalrog/AG-DATA",
       "detail": "Pushed code",
       "at": "2026-10-24T07:08:31Z",
-      "ago": "3 days ago"
-    },
-    {
-      "label": "FORK",
-      "repo": "kestra-io/kestra",
-      "url": "https://github.com/kestra-io/kestra",
-      "detail": "",
-      "at": "2026-10-24T05:08:48Z",
       "ago": "3 days ago"
     }
   ],
