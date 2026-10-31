@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-31T02:22:02Z",
+  "generated_at": "2026-10-31T09:37:49Z",
   "user": "kaushalrog",
   "profile": {
-    "followers": 38,
-    "public_repos": 47
+    "followers": 39,
+    "public_repos": 48
   },
   "totals": {
     "stars": 25,
-    "own_repos": 22,
+    "own_repos": 23,
     "commits_30d": 3,
     "contributions_year": null,
     "streak_days": null
@@ -18,7 +18,7 @@
     "url": "https://github.com/permissionlesstech/bitchat",
     "detail": "",
     "at": "2026-10-30T18:30:11Z",
-    "ago": "7 hours ago"
+    "ago": "15 hours ago"
   },
   "projects": [
     {
@@ -85,7 +85,7 @@
       "url": "https://github.com/permissionlesstech/bitchat",
       "detail": "",
       "at": "2026-10-30T18:30:11Z",
-      "ago": "7 hours ago"
+      "ago": "15 hours ago"
     },
     {
       "label": "STAR",
@@ -117,7 +117,7 @@
       "url": "https://github.com/kaushalrog/AG-DATA",
       "detail": "Pushed code",
       "at": "2026-10-25T04:15:04Z",
-      "ago": "5 days ago"
+      "ago": "6 days ago"
     },
     {
       "label": "PUSH",
@@ -125,7 +125,7 @@
       "url": "https://github.com/kaushalrog/scirag-uq",
       "detail": "Pushed code",
       "at": "2026-10-25T03:46:54Z",
-      "ago": "5 days ago"
+      "ago": "6 days ago"
     },
     {
       "label": "PUSH",
@@ -133,7 +133,7 @@
       "url": "https://github.com/kaushalrog/AG-DATA",
       "detail": "Pushed code",
       "at": "2026-10-24T07:15:36Z",
-      "ago": "6 days ago"
+      "ago": "7 days ago"
     },
     {
       "label": "RELEASE",
@@ -141,39 +141,39 @@
       "url": "https://github.com/kaushalrog/AG-DATA",
       "detail": "data-snapshot",
       "at": "2026-10-24T07:13:36Z",
-      "ago": "6 days ago"
+      "ago": "7 days ago"
     }
   ],
   "languages": [
     {
+      "name": "Python",
+      "pct": 31.7,
+      "bytes": 1712737
+    },
+    {
       "name": "Jupyter Notebook",
-      "pct": 27.1,
+      "pct": 22.9,
       "bytes": 1234648
     },
     {
-      "name": "Python",
-      "pct": 23.5,
-      "bytes": 1069715
-    },
-    {
       "name": "TypeScript",
-      "pct": 22.2,
-      "bytes": 1010422
+      "pct": 19.7,
+      "bytes": 1065110
     },
     {
       "name": "HTML",
-      "pct": 16.9,
-      "bytes": 768192
+      "pct": 16.5,
+      "bytes": 889591
     },
     {
       "name": "Scala",
-      "pct": 4.1,
+      "pct": 3.5,
       "bytes": 188948
     },
     {
       "name": "JavaScript",
-      "pct": 2.1,
-      "bytes": 95165
+      "pct": 1.8,
+      "bytes": 98617
     }
   ]
 }
