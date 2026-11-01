@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T13:22:20Z",
+  "generated_at": "2026-11-01T18:55:49Z",
   "user": "kaushalrog",
   "profile": {
     "followers": 39,
@@ -13,12 +13,12 @@
     "streak_days": null
   },
   "latest": {
-    "label": "STAR",
-    "repo": "permissionlesstech/bitchat",
-    "url": "https://github.com/permissionlesstech/bitchat",
-    "detail": "",
-    "at": "2026-10-30T18:30:11Z",
-    "ago": "1 day ago"
+    "label": "PUSH",
+    "repo": "kaushalrog/Spacecraft-Formation-Attitude-Control",
+    "url": "https://github.com/kaushalrog/Spacecraft-Formation-Attitude-Control",
+    "detail": "Pushed code",
+    "at": "2026-10-30T18:34:52Z",
+    "ago": "2 days ago"
   },
   "projects": [
     {
@@ -44,7 +44,7 @@
       "exists": true,
       "stars": 1,
       "pushed_at": "2026-10-26T17:02:54Z",
-      "last_push": "5 days ago",
+      "last_push": "6 days ago",
       "commits_30d": 2,
       "ci": null,
       "ci_run_url": null
@@ -72,7 +72,7 @@
       "exists": true,
       "stars": 3,
       "pushed_at": "2026-10-14T16:16:24Z",
-      "last_push": "17 days ago",
+      "last_push": "18 days ago",
       "commits_30d": 1,
       "ci": null,
       "ci_run_url": null
@@ -80,12 +80,20 @@
   ],
   "feed": [
     {
+      "label": "PUSH",
+      "repo": "kaushalrog/Spacecraft-Formation-Attitude-Control",
+      "url": "https://github.com/kaushalrog/Spacecraft-Formation-Attitude-Control",
+      "detail": "Pushed code",
+      "at": "2026-10-30T18:34:52Z",
+      "ago": "2 days ago"
+    },
+    {
       "label": "STAR",
       "repo": "permissionlesstech/bitchat",
       "url": "https://github.com/permissionlesstech/bitchat",
       "detail": "",
       "at": "2026-10-30T18:30:11Z",
-      "ago": "1 day ago"
+      "ago": "2 days ago"
     },
     {
       "label": "STAR",
@@ -109,7 +117,7 @@
       "url": "https://github.com/kaushalrog/scirag-uq",
       "detail": "Pushed code",
       "at": "2026-10-26T17:02:55Z",
-      "ago": "5 days ago"
+      "ago": "6 days ago"
     },
     {
       "label": "PUSH",
@@ -133,14 +141,6 @@
       "url": "https://github.com/kaushalrog/AG-DATA",
       "detail": "Pushed code",
       "at": "2026-10-24T07:15:36Z",
-      "ago": "8 days ago"
-    },
-    {
-      "label": "RELEASE",
-      "repo": "kaushalrog/AG-DATA",
-      "url": "https://github.com/kaushalrog/AG-DATA",
-      "detail": "data-snapshot",
-      "at": "2026-10-24T07:13:36Z",
       "ago": "8 days ago"
     }
   ],
