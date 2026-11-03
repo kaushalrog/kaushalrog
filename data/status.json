@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T10:51:05Z",
+  "generated_at": "2026-11-03T18:26:28Z",
   "user": "kaushalrog",
   "profile": {
     "followers": 39,
@@ -44,7 +44,7 @@
       "exists": true,
       "stars": 1,
       "pushed_at": "2026-10-26T17:02:54Z",
-      "last_push": "7 days ago",
+      "last_push": "8 days ago",
       "commits_30d": 2,
       "ci": null,
       "ci_run_url": null
@@ -72,7 +72,7 @@
       "exists": true,
       "stars": 3,
       "pushed_at": "2026-10-14T16:16:24Z",
-      "last_push": "19 days ago",
+      "last_push": "20 days ago",
       "commits_30d": 1,
       "ci": null,
       "ci_run_url": null
@@ -117,7 +117,7 @@
       "url": "https://github.com/kaushalrog/scirag-uq",
       "detail": "Pushed code",
       "at": "2026-10-26T17:02:55Z",
-      "ago": "7 days ago"
+      "ago": "8 days ago"
     },
     {
       "label": "PUSH",
@@ -147,27 +147,27 @@
   "languages": [
     {
       "name": "Python",
-      "pct": 31.7,
+      "pct": 31.2,
       "bytes": 1712737
     },
     {
       "name": "Jupyter Notebook",
-      "pct": 22.9,
+      "pct": 22.5,
       "bytes": 1234648
     },
     {
       "name": "TypeScript",
-      "pct": 19.7,
-      "bytes": 1065110
+      "pct": 20.7,
+      "bytes": 1139698
     },
     {
       "name": "HTML",
-      "pct": 16.5,
+      "pct": 16.2,
       "bytes": 889591
     },
     {
       "name": "Scala",
-      "pct": 3.5,
+      "pct": 3.4,
       "bytes": 188948
     },
     {
