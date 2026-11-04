@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T23:59:03Z",
+  "generated_at": "2026-11-04T06:19:57Z",
   "user": "kaushalrog",
   "profile": {
     "followers": 39,
@@ -14,11 +14,11 @@
   },
   "latest": {
     "label": "PUSH",
-    "repo": "kaushalrog/Spacecraft-Formation-Attitude-Control",
-    "url": "https://github.com/kaushalrog/Spacecraft-Formation-Attitude-Control",
+    "repo": "kaushalrog/portfolio",
+    "url": "https://github.com/kaushalrog/portfolio",
     "detail": "Pushed code",
-    "at": "2026-10-30T18:34:52Z",
-    "ago": "4 days ago"
+    "at": "2026-11-03T17:34:51Z",
+    "ago": "12 hours ago"
   },
   "projects": [
     {
@@ -81,6 +81,14 @@
   "feed": [
     {
       "label": "PUSH",
+      "repo": "kaushalrog/portfolio",
+      "url": "https://github.com/kaushalrog/portfolio",
+      "detail": "Pushed code",
+      "at": "2026-11-03T17:34:51Z",
+      "ago": "12 hours ago"
+    },
+    {
+      "label": "PUSH",
       "repo": "kaushalrog/Spacecraft-Formation-Attitude-Control",
       "url": "https://github.com/kaushalrog/Spacecraft-Formation-Attitude-Control",
       "detail": "Pushed code",
@@ -101,7 +109,7 @@
       "url": "https://github.com/kaushalrog/AG-DATA",
       "detail": "",
       "at": "2026-10-27T02:07:21Z",
-      "ago": "7 days ago"
+      "ago": "8 days ago"
     },
     {
       "label": "PUSH",
@@ -109,7 +117,7 @@
       "url": "https://github.com/kaushalrog/AG-DATA",
       "detail": "Pushed code",
       "at": "2026-10-27T02:07:12Z",
-      "ago": "7 days ago"
+      "ago": "8 days ago"
     },
     {
       "label": "PUSH",
@@ -125,7 +133,7 @@
       "url": "https://github.com/kaushalrog/AG-DATA",
       "detail": "Pushed code",
       "at": "2026-10-25T04:15:04Z",
-      "ago": "9 days ago"
+      "ago": "10 days ago"
     },
     {
       "label": "PUSH",
@@ -133,14 +141,6 @@
       "url": "https://github.com/kaushalrog/scirag-uq",
       "detail": "Pushed code",
       "at": "2026-10-25T03:46:54Z",
-      "ago": "9 days ago"
-    },
-    {
-      "label": "PUSH",
-      "repo": "kaushalrog/AG-DATA",
-      "url": "https://github.com/kaushalrog/AG-DATA",
-      "detail": "Pushed code",
-      "at": "2026-10-24T07:15:36Z",
       "ago": "10 days ago"
     }
   ],
