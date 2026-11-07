@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T14:00:32Z",
+  "generated_at": "2026-11-07T18:47:41Z",
   "user": "kaushalrog",
   "profile": {
     "followers": 40,
@@ -13,12 +13,12 @@
     "streak_days": null
   },
   "latest": {
-    "label": "PUSH",
-    "repo": "kaushalrog/atithi",
-    "url": "https://github.com/kaushalrog/atithi",
-    "detail": "Pushed code",
-    "at": "2026-11-06T06:13:43Z",
-    "ago": "1 day ago"
+    "label": "PR",
+    "repo": "Rishithachappidi/Communication-Aware-Fault-Tolerant-Attitude-Coordination-of-Four-Satellites",
+    "url": "https://github.com/Rishithachappidi/Communication-Aware-Fault-Tolerant-Attitude-Coordination-of-Four-Satellites",
+    "detail": "opened #4",
+    "at": "2026-11-07T18:33:32Z",
+    "ago": "14 min ago"
   },
   "projects": [
     {
@@ -44,7 +44,7 @@
       "exists": true,
       "stars": 1,
       "pushed_at": "2026-10-26T17:02:54Z",
-      "last_push": "11 days ago",
+      "last_push": "12 days ago",
       "commits_30d": 2,
       "ci": null,
       "ci_run_url": null
@@ -72,13 +72,21 @@
       "exists": true,
       "stars": 3,
       "pushed_at": "2026-10-14T16:16:24Z",
-      "last_push": "23 days ago",
+      "last_push": "24 days ago",
       "commits_30d": 1,
       "ci": null,
       "ci_run_url": null
     }
   ],
   "feed": [
+    {
+      "label": "PR",
+      "repo": "Rishithachappidi/Communication-Aware-Fault-Tolerant-Attitude-Coordination-of-Four-Satellites",
+      "url": "https://github.com/Rishithachappidi/Communication-Aware-Fault-Tolerant-Attitude-Coordination-of-Four-Satellites",
+      "detail": "opened #4",
+      "at": "2026-11-07T18:33:32Z",
+      "ago": "14 min ago"
+    },
     {
       "label": "PUSH",
       "repo": "kaushalrog/atithi",
@@ -108,6 +116,14 @@
       "repo": "kaushalrog/atithi",
       "url": "https://github.com/kaushalrog/atithi",
       "detail": "Pushed code",
+      "at": "2026-11-06T06:07:23Z",
+      "ago": "1 day ago"
+    },
+    {
+      "label": "PUSH",
+      "repo": "kaushalrog/atithi",
+      "url": "https://github.com/kaushalrog/atithi",
+      "detail": "Pushed code",
       "at": "2026-11-06T06:05:31Z",
       "ago": "1 day ago"
     },
@@ -126,22 +142,6 @@
       "detail": "Pushed code",
       "at": "2026-11-06T05:58:58Z",
       "ago": "1 day ago"
-    },
-    {
-      "label": "PUSH",
-      "repo": "kaushalrog/atithi",
-      "url": "https://github.com/kaushalrog/atithi",
-      "detail": "Pushed code",
-      "at": "2026-11-06T05:45:54Z",
-      "ago": "1 day ago"
-    },
-    {
-      "label": "PUSH",
-      "repo": "kaushalrog/portfolio",
-      "url": "https://github.com/kaushalrog/portfolio",
-      "detail": "Pushed code",
-      "at": "2026-11-03T17:34:51Z",
-      "ago": "3 days ago"
     }
   ],
   "languages": [
