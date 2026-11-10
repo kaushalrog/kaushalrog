@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T18:47:33Z",
+  "generated_at": "2026-11-10T02:07:49Z",
   "user": "kaushalrog",
   "profile": {
     "followers": 40,
@@ -14,10 +14,10 @@
   },
   "latest": {
     "label": "PUSH",
-    "repo": "kaushalrog/orbit-web",
-    "url": "https://github.com/kaushalrog/orbit-web",
+    "repo": "kaushalrog/study_iit",
+    "url": "https://github.com/kaushalrog/study_iit",
     "detail": "Pushed code",
-    "at": "2026-11-08T04:15:17Z",
+    "at": "2026-11-08T04:15:54Z",
     "ago": "1 day ago"
   },
   "projects": [
@@ -81,6 +81,14 @@
   "feed": [
     {
       "label": "PUSH",
+      "repo": "kaushalrog/study_iit",
+      "url": "https://github.com/kaushalrog/study_iit",
+      "detail": "Pushed code",
+      "at": "2026-11-08T04:15:54Z",
+      "ago": "1 day ago"
+    },
+    {
+      "label": "PUSH",
       "repo": "kaushalrog/orbit-web",
       "url": "https://github.com/kaushalrog/orbit-web",
       "detail": "Pushed code",
@@ -134,14 +142,6 @@
       "detail": "Pushed code",
       "at": "2026-11-07T13:25:27Z",
       "ago": "2 days ago"
-    },
-    {
-      "label": "PUSH",
-      "repo": "kaushalrog/atithi",
-      "url": "https://github.com/kaushalrog/atithi",
-      "detail": "Pushed code",
-      "at": "2026-11-06T06:13:43Z",
-      "ago": "3 days ago"
     }
   ],
   "languages": [
