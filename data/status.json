@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T06:16:46Z",
+  "generated_at": "2026-11-11T14:30:14Z",
   "user": "kaushalrog",
   "profile": {
     "followers": 40,
@@ -14,11 +14,11 @@
   },
   "latest": {
     "label": "PUSH",
-    "repo": "kaushalrog/study_iit",
-    "url": "https://github.com/kaushalrog/study_iit",
+    "repo": "kaushalrog/atithi",
+    "url": "https://github.com/kaushalrog/atithi",
     "detail": "Pushed code",
-    "at": "2026-11-08T04:15:54Z",
-    "ago": "3 days ago"
+    "at": "2026-11-10T15:06:04Z",
+    "ago": "23 hours ago"
   },
   "projects": [
     {
@@ -81,6 +81,14 @@
   "feed": [
     {
       "label": "PUSH",
+      "repo": "kaushalrog/atithi",
+      "url": "https://github.com/kaushalrog/atithi",
+      "detail": "Pushed code",
+      "at": "2026-11-10T15:06:04Z",
+      "ago": "23 hours ago"
+    },
+    {
+      "label": "PUSH",
       "repo": "kaushalrog/study_iit",
       "url": "https://github.com/kaushalrog/study_iit",
       "detail": "Pushed code",
@@ -133,14 +141,6 @@
       "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery",
       "detail": "branch ieee-transactions-revision",
       "at": "2026-11-07T16:23:51Z",
-      "ago": "3 days ago"
-    },
-    {
-      "label": "PUSH",
-      "repo": "kaushalrog/atithi",
-      "url": "https://github.com/kaushalrog/atithi",
-      "detail": "Pushed code",
-      "at": "2026-11-07T13:25:27Z",
       "ago": "3 days ago"
     }
   ],
