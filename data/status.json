@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-13T07:56:24Z",
+  "generated_at": "2026-11-13T16:21:47Z",
   "user": "kaushalrog",
   "profile": {
     "followers": 40,
-    "public_repos": 50
+    "public_repos": 49
   },
   "totals": {
     "stars": 25,
-    "own_repos": 25,
-    "commits_30d": 3,
+    "own_repos": 24,
+    "commits_30d": 2,
     "contributions_year": null,
     "streak_days": null
   },
@@ -18,7 +18,7 @@
     "url": "https://github.com/kaushalrog/study_iit",
     "detail": "Pushed code",
     "at": "2026-11-12T13:52:38Z",
-    "ago": "18 hours ago"
+    "ago": "1 day ago"
   },
   "projects": [
     {
@@ -72,8 +72,8 @@
       "exists": true,
       "stars": 3,
       "pushed_at": "2026-10-14T16:16:24Z",
-      "last_push": "29 days ago",
-      "commits_30d": 1,
+      "last_push": "1 month ago",
+      "commits_30d": 0,
       "ci": null,
       "ci_run_url": null
     }
@@ -85,7 +85,7 @@
       "url": "https://github.com/kaushalrog/study_iit",
       "detail": "Pushed code",
       "at": "2026-11-12T13:52:38Z",
-      "ago": "18 hours ago"
+      "ago": "1 day ago"
     },
     {
       "label": "PUSH",
@@ -93,7 +93,7 @@
       "url": "https://github.com/kaushalrog/study_iit",
       "detail": "Pushed code",
       "at": "2026-11-10T15:07:38Z",
-      "ago": "2 days ago"
+      "ago": "3 days ago"
     },
     {
       "label": "PUSH",
@@ -101,7 +101,7 @@
       "url": "https://github.com/kaushalrog/atithi",
       "detail": "Pushed code",
       "at": "2026-11-10T15:06:04Z",
-      "ago": "2 days ago"
+      "ago": "3 days ago"
     },
     {
       "label": "PUSH",
@@ -147,33 +147,33 @@
   "languages": [
     {
       "name": "Python",
-      "pct": 30.3,
-      "bytes": 2013654
+      "pct": 31.1,
+      "bytes": 1998693
     },
     {
       "name": "TypeScript",
-      "pct": 28.7,
+      "pct": 29.7,
       "bytes": 1908173
     },
     {
       "name": "Jupyter Notebook",
-      "pct": 18.6,
+      "pct": 19.2,
       "bytes": 1234648
     },
     {
       "name": "HTML",
-      "pct": 13.9,
+      "pct": 14.4,
       "bytes": 922241
-    },
-    {
-      "name": "Scala",
-      "pct": 2.8,
-      "bytes": 188948
     },
     {
       "name": "JavaScript",
       "pct": 1.7,
       "bytes": 112120
+    },
+    {
+      "name": "CSS",
+      "pct": 1.4,
+      "bytes": 91037
     }
   ]
 }
