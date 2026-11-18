@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-18T13:57:13Z",
+  "generated_at": "2026-11-18T21:55:48Z",
   "user": "kaushalrog",
   "profile": {
     "followers": 40,
-    "public_repos": 50
+    "public_repos": 51
   },
   "totals": {
     "stars": 25,
-    "own_repos": 25,
+    "own_repos": 26,
     "commits_30d": 3,
     "contributions_year": null,
     "streak_days": null
@@ -44,7 +44,7 @@
       "exists": true,
       "stars": 1,
       "pushed_at": "2026-11-15T16:27:48Z",
-      "last_push": "2 days ago",
+      "last_push": "3 days ago",
       "commits_30d": 3,
       "ci": null,
       "ci_run_url": null
@@ -93,7 +93,7 @@
       "url": "https://github.com/kaushalrog/study_iit",
       "detail": "Pushed code",
       "at": "2026-11-10T15:07:38Z",
-      "ago": "7 days ago"
+      "ago": "8 days ago"
     },
     {
       "label": "PUSH",
@@ -101,7 +101,7 @@
       "url": "https://github.com/kaushalrog/atithi",
       "detail": "Pushed code",
       "at": "2026-11-10T15:06:04Z",
-      "ago": "7 days ago"
+      "ago": "8 days ago"
     },
     {
       "label": "PUSH",
@@ -133,7 +133,7 @@
       "url": "https://github.com/Rishithachappidi/Communication-Aware-Fault-Tolerant-Attitude-Coordination-of-Four-Satellites",
       "detail": "opened #4",
       "at": "2026-11-07T18:33:32Z",
-      "ago": "10 days ago"
+      "ago": "11 days ago"
     },
     {
       "label": "CREATE",
@@ -141,38 +141,38 @@
       "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery",
       "detail": "branch gat-method",
       "at": "2026-11-07T17:58:27Z",
-      "ago": "10 days ago"
+      "ago": "11 days ago"
     }
   ],
   "languages": [
     {
+      "name": "HTML",
+      "pct": 35.4,
+      "bytes": 3010482
+    },
+    {
       "name": "Python",
-      "pct": 31.1,
+      "pct": 23.5,
       "bytes": 1998693
     },
     {
       "name": "TypeScript",
-      "pct": 29.7,
+      "pct": 22.4,
       "bytes": 1908173
     },
     {
       "name": "Jupyter Notebook",
-      "pct": 19.2,
+      "pct": 14.5,
       "bytes": 1234648
     },
     {
-      "name": "HTML",
-      "pct": 14.4,
-      "bytes": 922241
-    },
-    {
       "name": "JavaScript",
-      "pct": 1.7,
-      "bytes": 112120
+      "pct": 1.3,
+      "bytes": 112769
     },
     {
       "name": "CSS",
-      "pct": 1.4,
+      "pct": 1.1,
       "bytes": 91037
     }
   ]
