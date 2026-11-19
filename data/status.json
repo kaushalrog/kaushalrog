@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T13:03:42Z",
+  "generated_at": "2026-11-19T21:31:48Z",
   "user": "kaushalrog",
   "profile": {
     "followers": 40,
@@ -13,11 +13,11 @@
     "streak_days": null
   },
   "latest": {
-    "label": "PUSH",
-    "repo": "kaushalrog/Spacecraft-Formation-Attitude-Control",
-    "url": "https://github.com/kaushalrog/Spacecraft-Formation-Attitude-Control",
-    "detail": "Pushed code",
-    "at": "2026-11-18T05:24:12Z",
+    "label": "CREATE",
+    "repo": "kaushalrog/edemo",
+    "url": "https://github.com/kaushalrog/edemo",
+    "detail": "branch main",
+    "at": "2026-11-18T18:22:36Z",
     "ago": "1 day ago"
   },
   "projects": [
@@ -44,7 +44,7 @@
       "exists": true,
       "stars": 1,
       "pushed_at": "2026-11-15T16:27:48Z",
-      "last_push": "3 days ago",
+      "last_push": "4 days ago",
       "commits_30d": 3,
       "ci": null,
       "ci_run_url": null
@@ -80,6 +80,14 @@
   ],
   "feed": [
     {
+      "label": "CREATE",
+      "repo": "kaushalrog/edemo",
+      "url": "https://github.com/kaushalrog/edemo",
+      "detail": "branch main",
+      "at": "2026-11-18T18:22:36Z",
+      "ago": "1 day ago"
+    },
+    {
       "label": "PUSH",
       "repo": "kaushalrog/Spacecraft-Formation-Attitude-Control",
       "url": "https://github.com/kaushalrog/Spacecraft-Formation-Attitude-Control",
@@ -93,7 +101,7 @@
       "url": "https://github.com/kaushalrog/study_iit",
       "detail": "Pushed code",
       "at": "2026-11-12T13:52:38Z",
-      "ago": "6 days ago"
+      "ago": "7 days ago"
     },
     {
       "label": "PUSH",
@@ -101,7 +109,7 @@
       "url": "https://github.com/kaushalrog/study_iit",
       "detail": "Pushed code",
       "at": "2026-11-10T15:07:38Z",
-      "ago": "8 days ago"
+      "ago": "9 days ago"
     },
     {
       "label": "PUSH",
@@ -109,7 +117,7 @@
       "url": "https://github.com/kaushalrog/atithi",
       "detail": "Pushed code",
       "at": "2026-11-10T15:06:04Z",
-      "ago": "8 days ago"
+      "ago": "9 days ago"
     },
     {
       "label": "PUSH",
@@ -134,35 +142,27 @@
       "detail": "branch main",
       "at": "2026-11-08T04:13:40Z",
       "ago": "11 days ago"
-    },
-    {
-      "label": "PR",
-      "repo": "Rishithachappidi/Communication-Aware-Fault-Tolerant-Attitude-Coordination-of-Four-Satellites",
-      "url": "https://github.com/Rishithachappidi/Communication-Aware-Fault-Tolerant-Attitude-Coordination-of-Four-Satellites",
-      "detail": "opened #4",
-      "at": "2026-11-07T18:33:32Z",
-      "ago": "11 days ago"
     }
   ],
   "languages": [
     {
       "name": "HTML",
-      "pct": 35.4,
+      "pct": 35.0,
       "bytes": 3010482
     },
     {
       "name": "Python",
-      "pct": 23.5,
-      "bytes": 1998693
+      "pct": 24.2,
+      "bytes": 2080992
     },
     {
       "name": "TypeScript",
-      "pct": 22.4,
-      "bytes": 1908173
+      "pct": 22.2,
+      "bytes": 1909237
     },
     {
       "name": "Jupyter Notebook",
-      "pct": 14.5,
+      "pct": 14.4,
       "bytes": 1234648
     },
     {
