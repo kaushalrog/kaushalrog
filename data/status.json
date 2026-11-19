@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T03:25:55Z",
+  "generated_at": "2026-11-19T13:03:42Z",
   "user": "kaushalrog",
   "profile": {
     "followers": 40,
@@ -14,11 +14,11 @@
   },
   "latest": {
     "label": "PUSH",
-    "repo": "kaushalrog/study_iit",
-    "url": "https://github.com/kaushalrog/study_iit",
+    "repo": "kaushalrog/Spacecraft-Formation-Attitude-Control",
+    "url": "https://github.com/kaushalrog/Spacecraft-Formation-Attitude-Control",
     "detail": "Pushed code",
-    "at": "2026-11-12T13:52:38Z",
-    "ago": "6 days ago"
+    "at": "2026-11-18T05:24:12Z",
+    "ago": "1 day ago"
   },
   "projects": [
     {
@@ -81,6 +81,14 @@
   "feed": [
     {
       "label": "PUSH",
+      "repo": "kaushalrog/Spacecraft-Formation-Attitude-Control",
+      "url": "https://github.com/kaushalrog/Spacecraft-Formation-Attitude-Control",
+      "detail": "Pushed code",
+      "at": "2026-11-18T05:24:12Z",
+      "ago": "1 day ago"
+    },
+    {
+      "label": "PUSH",
       "repo": "kaushalrog/study_iit",
       "url": "https://github.com/kaushalrog/study_iit",
       "detail": "Pushed code",
@@ -109,7 +117,7 @@
       "url": "https://github.com/kaushalrog/study_iit",
       "detail": "Pushed code",
       "at": "2026-11-08T04:15:54Z",
-      "ago": "10 days ago"
+      "ago": "11 days ago"
     },
     {
       "label": "PUSH",
@@ -117,7 +125,7 @@
       "url": "https://github.com/kaushalrog/orbit-web",
       "detail": "Pushed code",
       "at": "2026-11-08T04:15:17Z",
-      "ago": "10 days ago"
+      "ago": "11 days ago"
     },
     {
       "label": "CREATE",
@@ -125,7 +133,7 @@
       "url": "https://github.com/kaushalrog/orbit-web",
       "detail": "branch main",
       "at": "2026-11-08T04:13:40Z",
-      "ago": "10 days ago"
+      "ago": "11 days ago"
     },
     {
       "label": "PR",
@@ -133,14 +141,6 @@
       "url": "https://github.com/Rishithachappidi/Communication-Aware-Fault-Tolerant-Attitude-Coordination-of-Four-Satellites",
       "detail": "opened #4",
       "at": "2026-11-07T18:33:32Z",
-      "ago": "11 days ago"
-    },
-    {
-      "label": "CREATE",
-      "repo": "kaushalrog/Satellite-Optical-Fault-Recovery",
-      "url": "https://github.com/kaushalrog/Satellite-Optical-Fault-Recovery",
-      "detail": "branch gat-method",
-      "at": "2026-11-07T17:58:27Z",
       "ago": "11 days ago"
     }
   ],
