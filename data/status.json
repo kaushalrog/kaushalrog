@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T21:31:48Z",
+  "generated_at": "2026-11-20T03:13:39Z",
   "user": "kaushalrog",
   "profile": {
     "followers": 40,
@@ -13,12 +13,12 @@
     "streak_days": null
   },
   "latest": {
-    "label": "CREATE",
-    "repo": "kaushalrog/edemo",
-    "url": "https://github.com/kaushalrog/edemo",
-    "detail": "branch main",
-    "at": "2026-11-18T18:22:36Z",
-    "ago": "1 day ago"
+    "label": "PUSH",
+    "repo": "kaushalrog/study_iit",
+    "url": "https://github.com/kaushalrog/study_iit",
+    "detail": "Pushed code",
+    "at": "2026-11-19T13:11:45Z",
+    "ago": "14 hours ago"
   },
   "projects": [
     {
@@ -80,11 +80,35 @@
   ],
   "feed": [
     {
+      "label": "PUSH",
+      "repo": "kaushalrog/study_iit",
+      "url": "https://github.com/kaushalrog/study_iit",
+      "detail": "Pushed code",
+      "at": "2026-11-19T13:11:45Z",
+      "ago": "14 hours ago"
+    },
+    {
       "label": "CREATE",
       "repo": "kaushalrog/edemo",
       "url": "https://github.com/kaushalrog/edemo",
       "detail": "branch main",
       "at": "2026-11-18T18:22:36Z",
+      "ago": "1 day ago"
+    },
+    {
+      "label": "PUSH",
+      "repo": "kaushalrog/demo_ecommerce",
+      "url": "https://github.com/kaushalrog/demo_ecommerce",
+      "detail": "Pushed code",
+      "at": "2026-11-18T15:48:26Z",
+      "ago": "1 day ago"
+    },
+    {
+      "label": "PUSH",
+      "repo": "kaushalrog/demo_ecommerce",
+      "url": "https://github.com/kaushalrog/demo_ecommerce",
+      "detail": "Pushed code",
+      "at": "2026-11-18T15:09:12Z",
       "ago": "1 day ago"
     },
     {
@@ -118,30 +142,6 @@
       "detail": "Pushed code",
       "at": "2026-11-10T15:06:04Z",
       "ago": "9 days ago"
-    },
-    {
-      "label": "PUSH",
-      "repo": "kaushalrog/study_iit",
-      "url": "https://github.com/kaushalrog/study_iit",
-      "detail": "Pushed code",
-      "at": "2026-11-08T04:15:54Z",
-      "ago": "11 days ago"
-    },
-    {
-      "label": "PUSH",
-      "repo": "kaushalrog/orbit-web",
-      "url": "https://github.com/kaushalrog/orbit-web",
-      "detail": "Pushed code",
-      "at": "2026-11-08T04:15:17Z",
-      "ago": "11 days ago"
-    },
-    {
-      "label": "CREATE",
-      "repo": "kaushalrog/orbit-web",
-      "url": "https://github.com/kaushalrog/orbit-web",
-      "detail": "branch main",
-      "at": "2026-11-08T04:13:40Z",
-      "ago": "11 days ago"
     }
   ],
   "languages": [
