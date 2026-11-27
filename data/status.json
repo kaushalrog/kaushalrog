@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-27T08:29:23Z",
+  "generated_at": "2026-11-27T18:57:46Z",
   "user": "kaushalrog",
   "profile": {
-    "followers": 40,
+    "followers": 41,
     "public_repos": 55
   },
   "totals": {
@@ -18,7 +18,7 @@
     "url": "https://github.com/AppFlowy-IO/AppFlowy-Docs",
     "detail": "",
     "at": "2026-11-25T17:23:07Z",
-    "ago": "1 day ago"
+    "ago": "2 days ago"
   },
   "projects": [
     {
@@ -44,7 +44,7 @@
       "exists": true,
       "stars": 1,
       "pushed_at": "2026-11-15T16:27:48Z",
-      "last_push": "11 days ago",
+      "last_push": "12 days ago",
       "commits_30d": 1,
       "ci": null,
       "ci_run_url": null
@@ -85,7 +85,7 @@
       "url": "https://github.com/AppFlowy-IO/AppFlowy-Docs",
       "detail": "",
       "at": "2026-11-25T17:23:07Z",
-      "ago": "1 day ago"
+      "ago": "2 days ago"
     },
     {
       "label": "COMMENT",
@@ -93,7 +93,7 @@
       "url": "https://github.com/tscircuit/contribution-tracker",
       "detail": "",
       "at": "2026-11-25T16:46:38Z",
-      "ago": "1 day ago"
+      "ago": "2 days ago"
     },
     {
       "label": "FORK",
@@ -101,7 +101,7 @@
       "url": "https://github.com/tscircuit/circuit-json-util",
       "detail": "",
       "at": "2026-11-25T11:32:52Z",
-      "ago": "1 day ago"
+      "ago": "2 days ago"
     },
     {
       "label": "FORK",
@@ -125,7 +125,7 @@
       "url": "https://github.com/kaushalrog/study_iit",
       "detail": "Pushed code",
       "at": "2026-11-19T13:11:45Z",
-      "ago": "7 days ago"
+      "ago": "8 days ago"
     },
     {
       "label": "PUSH",
@@ -133,7 +133,7 @@
       "url": "https://github.com/kaushalrog/orbit-web",
       "detail": "Pushed code",
       "at": "2026-11-19T13:09:20Z",
-      "ago": "7 days ago"
+      "ago": "8 days ago"
     },
     {
       "label": "CREATE",
@@ -141,7 +141,7 @@
       "url": "https://github.com/kaushalrog/edemo",
       "detail": "branch main",
       "at": "2026-11-18T18:22:36Z",
-      "ago": "8 days ago"
+      "ago": "9 days ago"
     }
   ],
   "languages": [
